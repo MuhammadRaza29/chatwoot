@@ -2,7 +2,7 @@
 - name: INSTALLATION_NAME
   value: 'Chatwoot'
 - name: LOGO_THUMBNAIL
-  value: '/brand-assets/logo_thumbnail.svg'
+  value: "https://localcom.com.au/wp-content/uploads/2024/10/cropped-LOCALCOM-LOGO-912X316-TRANSPARENT-3-1.png"
 - name: LOGO
   value: '/brand-assets/logo.svg'
 - name: LOGO_DARK
