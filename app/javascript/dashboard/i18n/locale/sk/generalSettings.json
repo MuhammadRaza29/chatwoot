@@ -123,7 +123,7 @@
         "CUSTOM_EMAIL_DOMAIN_ENABLED": "Teraz môžete prijímať e-maily vo vlastnej doméne."
       }
     },
-    "UPDATE_CHATWOOT": "K dispozícii je aktualizácia {latestLocalComVersion} pre LocalCom. Prosím, aktualizujte svoju inštanciu.",
+    "UPDATE_CHATWOOT": "K dispozícii je aktualizácia {latestChatwootVersion} pre LocalCom. Prosím, aktualizujte svoju inštanciu.",
     "LEARN_MORE": "Learn more",
     "PAYMENT_PENDING": "Your payment is pending. Please update your payment information to continue using LocalCom",
     "UPGRADE": "Upgrade to continue using LocalCom",

@@ -123,7 +123,7 @@
         "CUSTOM_EMAIL_DOMAIN_ENABLED": "Sie können jetzt E-Mails in Ihrer benutzerdefinierten Domäne empfangen."
       }
     },
-    "UPDATE_CHATWOOT": "Ein Update {latestLocalComVersion} für LocalCom ist verfügbar. Bitte aktualisieren Sie Ihre Instanz.",
+    "UPDATE_CHATWOOT": "Ein Update {latestChatwootVersion} für LocalCom ist verfügbar. Bitte aktualisieren Sie Ihre Instanz.",
     "LEARN_MORE": "Mehr erfahren",
     "PAYMENT_PENDING": "Ihre Zahlung steht noch aus. Um LocalCom weiter zu verwenden, aktualisieren Sie Bitte Ihre Zahlungsinformationen",
     "UPGRADE": "Upgrade to continue using LocalCom",
