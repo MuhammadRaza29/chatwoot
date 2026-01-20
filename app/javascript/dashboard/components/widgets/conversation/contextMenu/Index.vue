@@ -339,7 +339,7 @@ export default {
         />
       </MenuItemWithSubmenu>
       <MenuItemWithSubmenu
-        v-if="isAllowed([MENU.AGENT])"
+        v-if="isAllowed([MENU.AGENT]) && isAdmin"
         :option="agentMenuConfig"
         :sub-menu-available="!!assignableAgents.length"
       >
@@ -355,7 +355,7 @@ export default {
         </template>
       </MenuItemWithSubmenu>
       <MenuItemWithSubmenu
-        v-if="isAllowed([MENU.TEAM])"
+        v-if="isAllowed([MENU.TEAM]) && isAdmin"
         :option="teamMenuConfig"
         :sub-menu-available="!!teams.length"
       >
