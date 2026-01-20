@@ -128,14 +128,6 @@ export default {
       this.showDeleteModal = false;
       this.showEditModal = false;
     },
-    maskPhone(phone){
-      if (!phone) return '';
-      const visibleDigits = 4;
-      if (phone.length <= visibleDigits) return phone;
-      const maskedSection = '*'.repeat(phone.length - visibleDigits);
-      const visibleSection = phone.slice(-visibleDigits);
-      return maskedSection + visibleSection;
-    },
     findCountryFlag(countryCode, cityAndCountry) {
       try {
         if (!countryCode) {
@@ -243,7 +235,7 @@ export default {
           />
           <ContactInfoRow
             :href="isAdmin && contact.phone_number ? `tel:${contact.phone_number}` : ''"
-            :value="isAdmin ? contact.phone_number : maskPhone(contact.phone_number)"
+            :value="contact.phone_number"
             icon="call"
             emoji="📞"
             :title="$t('CONTACT_PANEL.PHONE_NUMBER')"

@@ -10,5 +10,11 @@ json.content_attributes message.content_attributes
 json.created_at message.created_at.to_i
 json.private message.private
 json.source_id message.source_id
-json.sender message.sender.push_event_data if message.sender
+if message.sender
+  if Current.account_user.administrator? || message.sender_type != 'Contact'
+    json.sender message.sender.push_event_data
+  else
+    json.sender message.sender.push_event_data.merge(email: nil, phone_number: nil, additional_attributes: {})
+  end
+end
 json.attachments message.attachments.map(&:push_event_data) if message.attachments.present?

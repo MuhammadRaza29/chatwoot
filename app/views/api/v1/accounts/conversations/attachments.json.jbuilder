@@ -12,5 +12,11 @@ json.payload @attachments do |attachment|
   json.width attachment.push_event_data[:width]
   json.height attachment.push_event_data[:height]
   json.created_at attachment.message.created_at.to_i
-  json.sender attachment.message.sender.push_event_data if attachment.message.sender
+  if attachment.message.sender
+    if Current.account_user.administrator? || attachment.message.sender_type != 'Contact'
+      json.sender attachment.message.sender.push_event_data
+    else
+      json.sender attachment.message.sender.push_event_data.merge(email: nil, phone_number: nil, additional_attributes: {})
+    end
+  end
 end
