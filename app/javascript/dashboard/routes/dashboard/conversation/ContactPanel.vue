@@ -8,6 +8,7 @@ import {
 import { useAccount } from 'dashboard/composables/useAccount';
 import { useUISettings } from 'dashboard/composables/useUISettings';
 import { FEATURE_FLAGS } from 'dashboard/featureFlags';
+import { useAdmin } from 'dashboard/composables/useAdmin';
 
 import AccordionItem from 'dashboard/components/Accordion/AccordionItem.vue';
 import ContactConversations from './ContactConversations.vue';
@@ -41,6 +42,8 @@ const {
   conversationSidebarItemsOrder,
   toggleSidebarUIState,
 } = useUISettings();
+
+const { isAdmin } = useAdmin();
 
 const dragging = ref(false);
 const conversationSidebarItems = ref([]);
@@ -150,7 +153,7 @@ onMounted(() => {
       >
         <template #item="{ element }">
           <div
-            v-if="element.name === 'conversation_actions'"
+            v-if="element.name === 'conversation_actions' && isAdmin"
             class="conversation--actions"
           >
             <AccordionItem
@@ -167,7 +170,7 @@ onMounted(() => {
             </AccordionItem>
           </div>
           <div
-            v-else-if="element.name === 'conversation_participants'"
+            v-else-if="element.name === 'conversation_participants' && isAdmin"
             class="conversation--actions"
           >
             <AccordionItem
@@ -184,7 +187,7 @@ onMounted(() => {
               />
             </AccordionItem>
           </div>
-          <div v-else-if="element.name === 'conversation_info'">
+          <div v-else-if="element.name === 'conversation_info' && isAdmin">
             <AccordionItem
               :title="$t('CONVERSATION_SIDEBAR.ACCORDION.CONVERSATION_INFO')"
               :is-open="isContactSidebarItemOpen('is_conv_details_open')"
@@ -199,7 +202,7 @@ onMounted(() => {
               />
             </AccordionItem>
           </div>
-          <div v-else-if="element.name === 'contact_attributes'">
+          <div v-else-if="element.name === 'contact_attributes' && isAdmin">
             <AccordionItem
               :title="$t('CONVERSATION_SIDEBAR.ACCORDION.CONTACT_ATTRIBUTES')"
               :is-open="isContactSidebarItemOpen('is_contact_attributes_open')"
@@ -238,7 +241,7 @@ onMounted(() => {
             </AccordionItem>
           </div>
           <woot-feature-toggle
-            v-else-if="element.name === 'macros'"
+            v-else-if="element.name === 'macros' && isAdmin"
             feature-key="macros"
           >
             <AccordionItem
@@ -271,7 +274,7 @@ onMounted(() => {
           </div>
           <div
             v-else-if="
-              element.name === 'shopify_orders' && isShopifyFeatureEnabled
+              element.name === 'shopify_orders' && isShopifyFeatureEnabled && isAdmin
             "
           >
             <AccordionItem

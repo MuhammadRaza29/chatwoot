@@ -128,6 +128,14 @@ export default {
       this.showDeleteModal = false;
       this.showEditModal = false;
     },
+    maskPhone(phone){
+      if (!phone) return '';
+      const visibleDigits = 4;
+      if (phone.length <= visibleDigits) return phone;
+      const maskedSection = '*'.repeat(phone.length - visibleDigits);
+      const visibleSection = phone.slice(-visibleDigits);
+      return maskedSection + visibleSection;
+    },
     findCountryFlag(countryCode, cityAndCountry) {
       try {
         if (!countryCode) {
@@ -227,21 +235,22 @@ export default {
           <ContactInfoRow
             :href="contact.email ? `mailto:${contact.email}` : ''"
             :value="contact.email"
+            v-if="isAdmin"
             icon="mail"
             emoji="✉️"
             :title="$t('CONTACT_PANEL.EMAIL_ADDRESS')"
             show-copy
           />
           <ContactInfoRow
-            :href="contact.phone_number ? `tel:${contact.phone_number}` : ''"
-            :value="contact.phone_number"
+            :href="isAdmin && contact.phone_number ? `tel:${contact.phone_number}` : ''"
+            :value="isAdmin ? contact.phone_number : maskPhone(contact.phone_number)"
             icon="call"
             emoji="📞"
             :title="$t('CONTACT_PANEL.PHONE_NUMBER')"
             show-copy
           />
           <ContactInfoRow
-            v-if="contact.identifier"
+            v-if="contact.identifier && isAdmin"
             :value="contact.identifier"
             icon="contact-identify"
             emoji="🪪"
@@ -254,7 +263,7 @@ export default {
             :title="$t('CONTACT_PANEL.COMPANY')"
           />
           <ContactInfoRow
-            v-if="location || additionalAttributes.location"
+            v-if="location || additionalAttributes.location && isAdmin"
             :value="location || additionalAttributes.location"
             icon="map"
             emoji="🌍"
@@ -290,6 +299,7 @@ export default {
           faded
         />
         <NextButton
+          v-if="isAdmin"
           v-tooltip.top-end="$t('EDIT_CONTACT.BUTTON_LABEL')"
           icon="i-ph-pencil-simple"
           slate
@@ -298,6 +308,7 @@ export default {
           @click="toggleEditModal"
         />
         <NextButton
+          v-if="isAdmin"
           v-tooltip.top-end="$t('CONTACT_PANEL.MERGE_CONTACT')"
           icon="i-ph-arrows-merge"
           slate
