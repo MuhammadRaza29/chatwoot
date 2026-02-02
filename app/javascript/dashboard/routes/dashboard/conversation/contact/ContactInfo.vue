@@ -234,9 +234,10 @@ export default {
             show-copy
           />
           <ContactInfoRow
-            :href="isAdmin && contact.phone_number ? `tel:${contact.phone_number}` : ''"
+            :href="contact.phone_number ? `tel:${contact.phone_number}` : ''"
             :value="contact.phone_number"
             icon="call"
+            v-if="isAdmin"
             emoji="📞"
             :title="$t('CONTACT_PANEL.PHONE_NUMBER')"
             show-copy

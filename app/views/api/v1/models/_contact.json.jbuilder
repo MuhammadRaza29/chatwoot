@@ -5,11 +5,7 @@ if Current.account_user.administrator?
 else
   json.additional_attributes resource.additional_attributes.except('city', 'location')
   json.email nil
-  if resource.phone_number.present?
-    json.phone_number "*" * (resource.phone_number.length - 4) + resource.phone_number.last(4)
-  else
-    json.phone_number nil
-  end
+  json.phone_number nil
 end
 
 json.availability_status resource.availability_status
