@@ -301,7 +301,7 @@ sl:
       description: 'Aplikacije nadzorne plošče vam omogočajo, da ustvarite in vdelate aplikacije, ki prikazujejo uporabniške informacije, naročila ali zgodovino plačil, kar zagotavlja več konteksta vašim agentom za podporo strankam.'
     dyte:
       name: 'Dyte'
-      short_description: 'Start video/voice calls with customers directly from Chatwoot.'
+      short_description: 'Start video/voice calls with customers directly from ChannelX.'
       description: 'Dyte je rešitev, ki integrira avdio in video funkcije v vašo aplikacijo. S to integracijo lahko vaši agenti začnejo video/glasovne klice z vašimi strankami neposredno iz Chatwoota.'
       meeting_name: '%{agent_name} je začel sestanek'
     slack:

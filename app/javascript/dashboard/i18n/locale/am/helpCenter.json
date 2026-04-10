@@ -1,897 +1,812 @@
 {
   "HELP_CENTER": {
-    "TITLE": "የእርዳታ ማዕከል",
+    "TITLE": "Help Center",
     "NEW_PAGE": {
-      "DESCRIPTION": "ለደንበኞችዎ ራስ-አገልግሎት የሚሰጥ የእርዳታ ማዕከላዊ ፖርታሎችን ይፍጠሩ። እነሱን በፍጥነት መልሶችን ለማግኘት እንዲረዱ እና የደንበኞች ድጋፍን እንዲያሻሽሉ ጥረት ያድርጉ።.",
-      "CREATE_PORTAL_BUTTON": "መስኮት ፍጠር"
+      "DESCRIPTION": "Create self-service help center portals for your customers. Help them find answers quickly, without waiting. Streamline inquiries, boost agent efficiency, and elevate customer support.",
+      "CREATE_PORTAL_BUTTON": "Create Portal"
     },
     "HEADER": {
-      "FILTER": "በይፋ ያስተካክሉ",
-      "SORT": "በይፋ ያደርጉ",
-      "LOCALE": "ቋንቋ",
-      "SETTINGS_BUTTON": "ቅንብሮች",
-      "NEW_BUTTON": "አዲስ ጽሑፍ",
+      "FILTER": "Filter by",
+      "SORT": "Sort by",
+      "LOCALE": "Locale",
+      "SETTINGS_BUTTON": "Settings",
+      "NEW_BUTTON": "New Article",
       "DROPDOWN_OPTIONS": {
-        "PUBLISHED": "ተለቀቀ",
-        "DRAFT": "እቅድ",
-        "ARCHIVED": "ተቀምጧል"
+        "PUBLISHED": "Published",
+        "DRAFT": "Draft",
+        "ARCHIVED": "Archived"
       },
       "TITLES": {
-        "ALL_ARTICLES": "ሁሉም ጽሁፎች",
-        "MINE": "የእኔ ጽሁፎች",
-        "DRAFT": "የስነምግባር ጽሁፎች",
-        "ARCHIVED": "ተቀምጠው ያሉ ጽሁፎች"
+        "ALL_ARTICLES": "All Articles",
+        "MINE": "My Articles",
+        "DRAFT": "Draft Articles",
+        "ARCHIVED": "Archived Articles"
       },
       "LOCALE_SELECT": {
-        "TITLE": "ቋንቋ ይምረጡ",
-        "PLACEHOLDER": "ቋንቋ ይምረጡ",
-        "NO_RESULT": "ቋንቋ አልተገኘም",
-        "SEARCH_PLACEHOLDER": "ቋንቋ ፈልግ"
+        "TITLE": "Select locale",
+        "PLACEHOLDER": "Select locale",
+        "NO_RESULT": "No locale found",
+        "SEARCH_PLACEHOLDER": "Search locale"
       }
     },
     "EDIT_HEADER": {
-      "ALL_ARTICLES": "ሁሉም ጽሑፎች",
-      "PUBLISH_BUTTON": "አስተዋውቅ",
-      "MOVE_TO_ARCHIVE_BUTTON": "ወደ ተቀመጠ ማውጫ አስቀምጥ",
-      "PREVIEW": "ቅድመ እይታ",
-      "ADD_TRANSLATION": "ትርጉም አክል",
-      "OPEN_SIDEBAR": "አጠገብ በር ክፈት",
-      "CLOSE_SIDEBAR": "አጠገብ በር ዝጋ",
-      "SAVING": "እየተቀማጭ ነው...",
-      "SAVED": "ተቀምጧል"
+      "ALL_ARTICLES": "All Articles",
+      "PUBLISH_BUTTON": "Publish",
+      "MOVE_TO_ARCHIVE_BUTTON": "Move to archived",
+      "PREVIEW": "Preview",
+      "ADD_TRANSLATION": "Add translation",
+      "OPEN_SIDEBAR": "Open sidebar",
+      "CLOSE_SIDEBAR": "Close sidebar",
+      "SAVING": "Saving...",
+      "SAVED": "Saved"
     },
     "ARTICLE_EDITOR": {
       "IMAGE_UPLOAD": {
-        "TITLE": "ምስል አስገባ",
-        "UPLOADING": "እየሰራ ነው...",
-        "SUCCESS": "ምስል በተሳካ ሁኔታ ተሰብስቧል",
-        "ERROR": "ምስል ሲሰብስብ ስህተት አጋጥሟል",
-        "UN_AUTHORIZED_ERROR": "ምስሎችን ለማስገባት ፈቃድ የለዎትም",
-        "ERROR_FILE_SIZE": "የምስል መጠን ከ {size}MB በታች መሆን አለበት",
-        "ERROR_FILE_FORMAT": "የምስል ቅርጸ ቅርጸት እንዲሁም jpg, jpeg ወይም png መሆን አለበት",
-        "ERROR_FILE_DIMENSIONS": "የምስል ስፋት ከ 2000 x 2000 በታች መሆን አለበት"
+        "TITLE": "Upload image",
+        "UPLOADING": "Uploading...",
+        "SUCCESS": "Image uploaded successfully",
+        "ERROR": "Error while uploading image",
+        "UN_AUTHORIZED_ERROR": "You are not authorized to upload images",
+        "ERROR_FILE_SIZE": "Image size should be less than {size}MB",
+        "ERROR_FILE_FORMAT": "Image format should be jpg, jpeg or png",
+        "ERROR_FILE_DIMENSIONS": "Image dimensions should be less than 2000 x 2000"
       }
     },
     "ARTICLE_SETTINGS": {
-      "TITLE": "የጽሑፍ ቅንብሮች",
+      "TITLE": "Article Settings",
       "FORM": {
         "CATEGORY": {
-          "LABEL": "ምድብ",
-          "TITLE": "ምድብ ይምረጡ",
-          "PLACEHOLDER": "ምድብ ይምረጡ",
-          "NO_RESULT": "ምድብ አልተገኘም",
-          "SEARCH_PLACEHOLDER": "ምድብ ይፈልጉ"
+          "LABEL": "Category",
+          "TITLE": "Select category",
+          "PLACEHOLDER": "Select category",
+          "NO_RESULT": "No category found",
+          "SEARCH_PLACEHOLDER": "Search category"
         },
         "AUTHOR": {
-          "LABEL": "ደራሲ",
-          "TITLE": "ደራሲ ይምረጡ",
-          "PLACEHOLDER": "ደራሲ ይምረጡ",
-          "NO_RESULT": "ደራሲዎች አልተገኙም",
-          "SEARCH_PLACEHOLDER": "ደራሲ ይፈልጉ"
+          "LABEL": "Author",
+          "TITLE": "Select author",
+          "PLACEHOLDER": "Select author",
+          "NO_RESULT": "No authors found",
+          "SEARCH_PLACEHOLDER": "Search author"
         },
         "META_TITLE": {
-          "LABEL": "ሜታ ርዕስ",
-          "PLACEHOLDER": "ሜታ ርዕስ ያክሉ"
+          "LABEL": "Meta title",
+          "PLACEHOLDER": "Add a meta title"
         },
         "META_DESCRIPTION": {
-          "LABEL": "ሜታ መግለጫ",
-          "PLACEHOLDER": "ለSEO ውጤቶች የተሻለ ሜታ መግለጫዎን ያክሉ..."
+          "LABEL": "Meta description",
+          "PLACEHOLDER": "Add your meta description for better SEO results..."
         },
         "META_TAGS": {
-          "LABEL": "ሜታ መለያዎች",
-          "PLACEHOLDER": "በኮማ የተለያዩ ሜታ መለያዎችን ያክሉ..."
+          "LABEL": "Meta tags",
+          "PLACEHOLDER": "Add meta tags separated by comma..."
         }
       },
       "BUTTONS": {
-        "ARCHIVE": "ጽሑፉን ያርክቡ",
-        "DELETE": "ጽሑፉን ሰርዝ"
+        "ARCHIVE": "Archive article",
+        "DELETE": "Delete article"
       }
     },
     "ARTICLE_SEARCH_RESULT": {
-      "UNCATEGORIZED": "ያልተደራጀ",
-      "SEARCH_RESULTS": "{query} የፈለጉት ውጤቶች",
-      "EMPTY_TEXT": "ለመልሶች ሰነዶችን ለማስገባት ፈልጉ።.",
-      "SEARCH_LOADER": "በመፈለግ ላይ...",
-      "INSERT_ARTICLE": "አስገባ",
-      "NO_RESULT": "ምንም ጽሑፎች አልተገኙም",
-      "COPY_LINK": "የጽሑፍ አገናኝ ወደ ቅጅ ቦርድ ቅዳ",
-      "OPEN_LINK": "ጽሑፉን በአዲስ ትር ክፈት",
-      "PREVIEW_LINK": "ጽሑፉን ቅድመ እይታ"
+      "UNCATEGORIZED": "Uncategorized",
+      "SEARCH_RESULTS": "Search results for {query}",
+      "EMPTY_TEXT": "Search for articles to insert into replies.",
+      "SEARCH_LOADER": "Searching...",
+      "INSERT_ARTICLE": "Insert",
+      "NO_RESULT": "No articles found",
+      "COPY_LINK": "Copy article link to clipboard",
+      "OPEN_LINK": "Open article in new tab",
+      "PREVIEW_LINK": "Preview article"
     },
     "PORTAL": {
-      "HEADER": "ፖርታሎች",
-      "DEFAULT": "ነባሪ",
-      "NEW_BUTTON": "አዲስ ፖርታል",
-      "ACTIVE_BADGE": "ንቁ",
-      "CHOOSE_LOCALE_LABEL": "አካባቢ ይምረጡ",
-      "LOADING_MESSAGE": "ፖርታሎች በመጫን ላይ...",
-      "ARTICLES_LABEL": "ጽሁፎች",
-      "NO_PORTALS_MESSAGE": "ተገኝቷል የለም ፖርታሎች",
-      "ADD_NEW_LOCALE": "አዲስ አካባቢ ያክሉ",
+      "HEADER": "Portals",
+      "DEFAULT": "Default",
+      "NEW_BUTTON": "New Portal",
+      "ACTIVE_BADGE": "active",
+      "CHOOSE_LOCALE_LABEL": "Choose a locale",
+      "LOADING_MESSAGE": "Loading portals...",
+      "ARTICLES_LABEL": "articles",
+      "NO_PORTALS_MESSAGE": "There are no available portals",
+      "ADD_NEW_LOCALE": "Add a new locale",
       "POPOVER": {
-        "TITLE": "ፖርታሎች",
-        "PORTAL_SETTINGS": "የፖርታል ቅንብሮች",
-        "SUBTITLE": "እርስዎ ብዙ ፖርታሎች አሏቸው እና ለእያንዳንዱ ፖርታል በተለያዩ ቋንቋዎች ሊኖሩ ይችላሉ።.",
-        "CANCEL_BUTTON_LABEL": "ተወው",
-        "CHOOSE_LOCALE_BUTTON": "ቋንቋ ይምረጡ"
+        "TITLE": "Portals",
+        "PORTAL_SETTINGS": "Portal settings",
+        "SUBTITLE": "You have multiple portals and can have different locales for each portal.",
+        "CANCEL_BUTTON_LABEL": "Cancel",
+        "CHOOSE_LOCALE_BUTTON": "Choose Locale"
       },
       "PORTAL_SETTINGS": {
         "LIST_ITEM": {
           "HEADER": {
-            "COUNT_LABEL": "ጽሁፎች",
-            "ADD": "ቋንቋ አክል",
-            "VISIT": "ጣቢያውን ጎብኝዎት",
-            "SETTINGS": "ቅንብሮች",
-            "DELETE": "ሰርዝ"
+            "COUNT_LABEL": "articles",
+            "ADD": "Add locale",
+            "VISIT": "Visit site",
+            "SETTINGS": "Settings",
+            "DELETE": "Delete"
           },
           "PORTAL_CONFIG": {
-            "TITLE": "የጣቢያ ቅንብሮች",
+            "TITLE": "Portal Configurations",
             "ITEMS": {
-              "NAME": "ስም",
-              "DOMAIN": "ብለዋል የተለየ ድር ስፍራ",
-              "SLUG": "ስልግ",
-              "TITLE": "የፖርታል ርዕስ",
-              "THEME": "የገጽታ ቀለም",
-              "SUB_TEXT": "የፖርታል ንዑስ ጽሑፍ"
+              "NAME": "Name",
+              "DOMAIN": "Custom domain",
+              "SLUG": "Slug",
+              "TITLE": "Portal title",
+              "THEME": "Theme color",
+              "SUB_TEXT": "Portal sub text"
             }
           },
           "AVAILABLE_LOCALES": {
-            "TITLE": "የሚገኙ ቋንቋዎች",
+            "TITLE": "Available locales",
             "TABLE": {
-              "NAME": "የቋንቋ ስም",
-              "CODE": "የቋንቋ ኮድ",
-              "ARTICLE_COUNT": "የጽሑፍ ብዛት",
-              "CATEGORIES": "የምድቦች ብዛት",
-              "SWAP": "መቀየር",
-              "DELETE": "ሰርዝ",
-              "DEFAULT_LOCALE": "ነባሪ"
+              "NAME": "Locale name",
+              "CODE": "Locale code",
+              "ARTICLE_COUNT": "No. of articles",
+              "CATEGORIES": "No. of categories",
+              "SWAP": "Swap",
+              "DELETE": "Delete",
+              "DEFAULT_LOCALE": "Default"
             }
           }
         },
         "DELETE_PORTAL": {
-          "TITLE": "ፖርታሉን ሰርዝ",
-          "MESSAGE": "ይህን ፖርታል ማጥፋት እርግጠኛ ነዎት",
-          "YES": "አዎን፣ ፖርታሉን ሰርዝ",
-          "NO": "አይ፣ ፖርታሉን አስቀምጥ",
+          "TITLE": "Delete portal",
+          "MESSAGE": "Are you sure you want to delete this portal",
+          "YES": "Yes, delete portal",
+          "NO": "No, keep portal",
           "API": {
-            "DELETE_SUCCESS": "ፖርታሉ በተሳካ ሁኔታ ተሰርዟል",
-            "DELETE_ERROR": "ፖርታሉን ሲሰርዝ ስህተት አጋጥሟል"
+            "DELETE_SUCCESS": "Portal deleted successfully",
+            "DELETE_ERROR": "Error while deleting portal"
           }
         },
         "SEND_CNAME_INSTRUCTIONS": {
           "API": {
-            "SUCCESS_MESSAGE": "CNAME መመሪያዎች በተሳካ ሁኔታ ተልከዋል",
-            "ERROR_MESSAGE": "CNAME መመሪያዎችን ሲላኩ ስህተት አጋጥሟል"
+            "SUCCESS_MESSAGE": "CNAME instructions sent successfully",
+            "ERROR_MESSAGE": "Error while sending CNAME instructions"
           }
         }
       },
       "EDIT": {
-        "HEADER_TEXT": "ፖርታሉን አርትዕ",
+        "HEADER_TEXT": "Edit portal",
         "TABS": {
           "BASIC_SETTINGS": {
-            "TITLE": "መሠረታዊ መረጃ"
+            "TITLE": "Basic information"
           },
           "CUSTOMIZATION_SETTINGS": {
-            "TITLE": "ፖርታል ማስተካከያ"
+            "TITLE": "Portal customization"
           },
           "CATEGORY_SETTINGS": {
-            "TITLE": "ምድቦች"
+            "TITLE": "Categories"
           },
           "LOCALE_SETTINGS": {
-            "TITLE": "ቋንቋዎች"
+            "TITLE": "Locales"
           }
         },
         "CATEGORIES": {
-          "TITLE": "በውስጥ ምድቦች",
-          "NEW_CATEGORY": "አዲስ ምድብ",
+          "TITLE": "Categories in",
+          "NEW_CATEGORY": "New category",
           "TABLE": {
-            "NAME": "ስም",
-            "DESCRIPTION": "መግለጫ",
-            "LOCALE": "አካባቢ",
-            "ARTICLE_COUNT": "የጽሑፎች ብዛት",
+            "NAME": "Name",
+            "DESCRIPTION": "Description",
+            "LOCALE": "Locale",
+            "ARTICLE_COUNT": "No. of articles",
             "ACTION_BUTTON": {
-              "EDIT": "ምድብ አርትዕ",
-              "DELETE": "ምድብ ሰርዝ"
+              "EDIT": "Edit category",
+              "DELETE": "Delete category"
             },
-            "EMPTY_TEXT": "ምድቦች አልተገኙም"
+            "EMPTY_TEXT": "No categories found"
           }
         },
         "EDIT_BASIC_INFO": {
-          "BUTTON_TEXT": "መሠረታዊ ቅንብሮችን አዘምን"
+          "BUTTON_TEXT": "Update basic settings"
         }
       },
       "ADD": {
         "CREATE_FLOW": {
           "BASIC": {
-            "TITLE": "የእርዳታ ማዕከል መረጃ",
-            "BODY": "ስለ ፖርታል መሰረታዊ መረጃ"
+            "TITLE": "Help center information",
+            "BODY": "Basic information about portal"
           },
           "CUSTOMIZATION": {
-            "TITLE": "የእርዳታ ማዕከል ቅኝት",
-            "BODY": "ፖርታልን ቅኝት አድርግ"
+            "TITLE": "Help center customization",
+            "BODY": "Customize portal"
           },
           "FINISH": {
-            "TITLE": "ተሰማሚ! 🎉",
-            "BODY": "ሁሉም ተዘጋጅቷል!"
+            "TITLE": "Voila! 🎉",
+            "BODY": "You're all set!"
           }
         },
         "CREATE_FLOW_PAGE": {
-          "BACK_BUTTON": "ተመለስ",
+          "BACK_BUTTON": "Back",
           "BASIC_SETTINGS_PAGE": {
-            "HEADER": "ፖርታል ፍጠር",
-            "TITLE": "የእርዳታ ማዕከል መረጃ",
-            "CREATE_BASIC_SETTING_BUTTON": "የፖርታል መሰረታዊ ቅንብሮችን ፍጠር"
+            "HEADER": "Create Portal",
+            "TITLE": "Help center information",
+            "CREATE_BASIC_SETTING_BUTTON": "Create portal basic settings"
           },
           "CUSTOMIZATION_PAGE": {
-            "HEADER": "ፖርታል ማስተካከያ",
-            "TITLE": "የእርዳታ ማዕከል ማስተካከያ",
-            "UPDATE_PORTAL_BUTTON": "የፖርታል ቅንብሮችን አዘምን"
+            "HEADER": "Portal customisation",
+            "TITLE": "Help center customization",
+            "UPDATE_PORTAL_BUTTON": "Update portal settings"
           },
           "FINISH_PAGE": {
-            "TITLE": "ተጠናቀቀ!🎉 ሁሉም ተዘጋጅቷል!",
-            "MESSAGE": "አሁን ይህ የተፈጠረውን ፖርታል በሁሉም ፖርታሎች ገፅ ላይ ማየት ይችላሉ።.",
-            "FINISH": "ወደ ሁሉም ፖርታሎች ገፅ ይሂዱ"
+            "TITLE": "Voila!🎉 You're all set up!",
+            "MESSAGE": "You can now see this created portal on your all portals page.",
+            "FINISH": "Go to all portals page"
           }
         },
         "LOGO": {
-          "LABEL": "ሎጎ",
-          "UPLOAD_BUTTON": "ሎጎ አስገባ",
-          "HELP_TEXT": "ይህ አርማ በፖርታል ራስጌ ላይ ይታያል።.",
-          "IMAGE_UPLOAD_SUCCESS": "ሎጎ በተሳካ ሁኔታ ተሰብስቧል",
-          "IMAGE_UPLOAD_ERROR": "ሎጎ በተሳካ ሁኔታ ተሰርዟል",
-          "IMAGE_DELETE_ERROR": "ሎጎውን ሲሰረዝ ላይ ስህተት አጋጥሟል"
+          "LABEL": "Logo",
+          "UPLOAD_BUTTON": "Upload logo",
+          "HELP_TEXT": "This logo will be displayed on the portal header.",
+          "IMAGE_UPLOAD_SUCCESS": "Logo uploaded successfully",
+          "IMAGE_UPLOAD_ERROR": "Logo deleted successfully",
+          "IMAGE_DELETE_ERROR": "Error while deleting logo"
         },
         "NAME": {
-          "LABEL": "ስም",
-          "PLACEHOLDER": "ፖርታል ስም",
-          "HELP_TEXT": "ስሙ በውስጥ በህዝብ ፊት የሚታይ ፖርታል ውስጥ ይጠቀማል።.",
-          "ERROR": "ስም ያስፈልጋል"
+          "LABEL": "Name",
+          "PLACEHOLDER": "Portal name",
+          "HELP_TEXT": "The name will be used in the public facing portal internally.",
+          "ERROR": "Name is required"
         },
         "SLUG": {
-          "LABEL": "ስለግ",
-          "PLACEHOLDER": "የፖርታል ስለግ ለURL አድራሻዎች",
-          "ERROR": "ስለግ አስፈላጊ ነው"
+          "LABEL": "Slug",
+          "PLACEHOLDER": "Portal slug for urls",
+          "ERROR": "Slug is required"
         },
         "DOMAIN": {
-          "LABEL": "ብለይ የተለየ ድር ስፍራ",
-          "PLACEHOLDER": "የፖርታል ብለይ የተለየ ድር ስፍራ",
-          "HELP_TEXT": "ለፖርታሎችዎ ብቻ ብቻ በተለየ ድር ስፍራ ለመጠቀም ከፈለጉ ብቻ ያክሉ። ለምሳሌ፡ {exampleURL}",
-          "ERROR": "ትክክለኛ የ domain URL ያስገቡ"
+          "LABEL": "Custom Domain",
+          "PLACEHOLDER": "Portal custom domain",
+          "HELP_TEXT": "Add only If you want to use a custom domain for your portals. Eg: {exampleURL}",
+          "ERROR": "Enter a valid domain URL"
         },
         "HOME_PAGE_LINK": {
-          "LABEL": "የመነሻ ገፅ አገናኝ",
-          "PLACEHOLDER": "የፖርታል የመነሻ ገፅ አገናኝ",
-          "HELP_TEXT": "ከፖርታል ወደ መነሻ ገጽ ለመመለስ የሚጠቀሙት አገናኝ። ለምሳሌ፡ {exampleURL}",
-          "ERROR": "ትክክለኛ የመነሻ ገጽ URL ያስገቡ"
+          "LABEL": "Home Page Link",
+          "PLACEHOLDER": "Portal home page link",
+          "HELP_TEXT": "The link used to return from the portal to the home page. Eg: {exampleURL}",
+          "ERROR": "Enter a valid home page URL"
         },
         "THEME_COLOR": {
-          "LABEL": "የፖርታል ገጽታ ቀለም",
-          "HELP_TEXT": "ይህ ቀለም እንደ ፖርታል የገጽታ ቀለም ይታያል።."
+          "LABEL": "Portal theme color",
+          "HELP_TEXT": "This color will show as the theme color for the portal."
         },
         "PAGE_TITLE": {
-          "LABEL": "የገፅ ርዕስ",
-          "PLACEHOLDER": "የፖርታል ገፅ ርዕስ",
-          "HELP_TEXT": "የገፅ ርዕስ በህዝብ ፊት የሚታይ ፖርታል ውስጥ ይጠቀማል።.",
-          "ERROR": "የገፅ ርዕስ ያስፈልጋል"
+          "LABEL": "Page Title",
+          "PLACEHOLDER": "Portal page title",
+          "HELP_TEXT": "The page title will be used in the public facing portal.",
+          "ERROR": "Page title is required"
         },
         "HEADER_TEXT": {
-          "LABEL": "የራስጌ ጽሑፍ",
-          "PLACEHOLDER": "የፖርታል የራስጌ ጽሑፍ",
-          "HELP_TEXT": "የፖርታል ራስጌ ጽሑፍ በህዝብ ፊት የሚታይ ፖርታል ውስጥ ይጠቀማል።.",
-          "ERROR": "የፖርታል የራስጌ ጽሑፍ አስፈላጊ ነው"
+          "LABEL": "Header Text",
+          "PLACEHOLDER": "Portal header text",
+          "HELP_TEXT": "The Portal header text will be used in the public facing portal.",
+          "ERROR": "Portal header text is required"
         },
         "API": {
-          "SUCCESS_MESSAGE_FOR_BASIC": "ፖርታሉ በተሳካ ሁኔታ ተፈጥሯል።.",
-          "ERROR_MESSAGE_FOR_BASIC": "ፖርታሉን ማፍጠር አልተቻለም። እባክዎ ደግመው ይሞክሩ።.",
-          "SUCCESS_MESSAGE_FOR_UPDATE": "ፖርታሉ በተሳካ ሁኔታ ተዘመኗል።.",
-          "ERROR_MESSAGE_FOR_UPDATE": "ፖርታሉን ማዘመን አልተቻለም። እባክዎ ደግመው ይሞክሩ።."
+          "SUCCESS_MESSAGE_FOR_BASIC": "Portal created successfully.",
+          "ERROR_MESSAGE_FOR_BASIC": "Couldn't create the portal. Try again.",
+          "SUCCESS_MESSAGE_FOR_UPDATE": "Portal updated successfully.",
+          "ERROR_MESSAGE_FOR_UPDATE": "Couldn't update the portal. Try again."
         }
       },
       "ADD_LOCALE": {
-        "TITLE": "አዲስ ቋንቋ ያክሉ",
-        "SUB_TITLE": "ይህ አዲስ ቋንቋ ወደ የተለያዩ ትርጉሞች ዝርዝርዎ ይጨምራል።.",
-        "PORTAL": "ፖርታል",
+        "TITLE": "Add a new locale",
+        "SUB_TITLE": "This adds a new locale to your available translation list.",
+        "PORTAL": "Portal",
         "LOCALE": {
-          "LABEL": "ቋንቋ",
-          "PLACEHOLDER": "ቋንቋ ይምረጡ",
-          "ERROR": "ቋንቋ አስፈላጊ ነው"
+          "LABEL": "Locale",
+          "PLACEHOLDER": "Choose a locale",
+          "ERROR": "Locale is required"
         },
         "BUTTONS": {
-          "CREATE": "ቋንቋ ፍጠር",
-          "CANCEL": "ሰርዝ"
+          "CREATE": "Create locale",
+          "CANCEL": "Cancel"
         },
         "API": {
-          "SUCCESS_MESSAGE": "ቋንቋ በተሳካ ሁኔታ ታክሏል",
-          "ERROR_MESSAGE": "ቋንቋውን ማክሰኞ አልተቻለም። እባክዎ ደግመው ይሞክሩ።."
+          "SUCCESS_MESSAGE": "Locale added successfully",
+          "ERROR_MESSAGE": "Unable to add locale. Try again."
         }
       },
       "CHANGE_DEFAULT_LOCALE": {
         "API": {
-          "SUCCESS_MESSAGE": "ነባሪ ቋንቋ በተሳካ ሁኔታ ተሻሽሏል",
-          "ERROR_MESSAGE": "ነባሪ ቋንቋውን ማዘመን አልተቻለም። እባክዎ ደግመው ይሞክሩ።."
+          "SUCCESS_MESSAGE": "Default locale updated successfully",
+          "ERROR_MESSAGE": "Unable to update default locale. Try again."
         }
       },
       "DELETE_LOCALE": {
         "API": {
-          "SUCCESS_MESSAGE": "ቋንቋው ከፖርታል በተሳካ ሁኔታ ተሰርዟል",
-          "ERROR_MESSAGE": "ከፖርታሉ ቋንቋ ማስወገድ አልተቻለም። እባክዎ ደግመው ይሞክሩ።."
-        }
-      },
-      "DRAFT_LOCALE": {
-        "API": {
-          "SUCCESS_MESSAGE": "Locale moved to draft successfully",
-          "ERROR_MESSAGE": "Unable to move locale to draft. Try again."
-        }
-      },
-      "PUBLISH_LOCALE": {
-        "API": {
-          "SUCCESS_MESSAGE": "Locale published successfully",
-          "ERROR_MESSAGE": "Unable to publish locale. Try again."
+          "SUCCESS_MESSAGE": "Locale removed from portal successfully",
+          "ERROR_MESSAGE": "Unable to remove locale from portal. Try again."
         }
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "ጽሁፎችን እየጫን ነው...",
-      "404": "ምንም ጽሑፎች ለፍለጋዎ አይዛመዱም 🔍",
-      "NO_ARTICLES": "አሁን ያሉ ጽሑፎች የሉም",
+      "LOADING_MESSAGE": "Loading articles...",
+      "404": "No articles matches your search 🔍",
+      "NO_ARTICLES": "There are no available articles",
       "HEADERS": {
-        "TITLE": "ርዕስ",
-        "CATEGORY": "ምድብ",
-        "READ_COUNT": "እይታዎች",
-        "STATUS": "ሁኔታ",
-        "LAST_EDITED": "መጨረሻ የተሻሻለ"
+        "TITLE": "Title",
+        "CATEGORY": "Category",
+        "READ_COUNT": "Views",
+        "STATUS": "Status",
+        "LAST_EDITED": "Last edited"
       },
       "COLUMNS": {
-        "BY": "በ",
-        "AUTHOR_NOT_AVAILABLE": "ደራሲው አይገኝም"
+        "BY": "by",
+        "AUTHOR_NOT_AVAILABLE": "Author is not available"
       }
     },
     "EDIT_ARTICLE": {
-      "LOADING": "ጽሑፉን እየተጫነ ነው...",
-      "TITLE_PLACEHOLDER": "የጽሑፍ ርዕስ እዚህ ይጻፉ",
-      "CONTENT_PLACEHOLDER": "ጽሑፍዎን እዚህ ይጻፉ",
+      "LOADING": "Loading article...",
+      "TITLE_PLACEHOLDER": "Article title goes here",
+      "CONTENT_PLACEHOLDER": "Write your article here",
       "API": {
-        "ERROR": "ጽሑፉን ማስቀመጥ ላይ ስህተት አጋጥሟል"
+        "ERROR": "Error while saving article"
       }
     },
     "PUBLISH_ARTICLE": {
       "API": {
-        "ERROR": "ጽሑፉን ሲያቀርቡ ላይ ስህተት አጋጥሟል",
-        "SUCCESS": "ጽሑፉ በተሳካ ሁኔታ ተለቀቀ"
+        "ERROR": "Error while publishing article",
+        "SUCCESS": "Article published successfully"
       }
     },
     "ARCHIVE_ARTICLE": {
       "API": {
-        "ERROR": "ጽሑፉን ሲያርክቭ ላይ ስህተት አጋጥሟል",
-        "SUCCESS": "ጽሑፉ በተሳካ ሁኔታ ተያይዞ አለ።"
+        "ERROR": "Error while archiving article",
+        "SUCCESS": "Article archived successfully"
       }
     },
     "DRAFT_ARTICLE": {
       "API": {
-        "ERROR": "የጽሑፍ ማቅረብ ላይ ስህተት ተከስቷል",
-        "SUCCESS": "ጽሑፍ በተሳካ ሁኔታ ተዘጋጅቷል"
+        "ERROR": "Error while drafting article",
+        "SUCCESS": "Article drafted successfully"
       }
     },
     "DELETE_ARTICLE": {
       "MODAL": {
         "CONFIRM": {
-          "TITLE": "ማጥፋትን ያረጋግጡ",
-          "MESSAGE": "እርግጠኛ ነዎት ጽሑፉን ማጥፋት?",
-          "YES": "አዎን፣ አጥፋ",
-          "NO": "አይ፣ አስቀምጥው"
+          "TITLE": "Confirm Deletion",
+          "MESSAGE": "Are you sure to delete the article?",
+          "YES": "Yes, Delete",
+          "NO": "No, Keep it"
         }
       },
       "API": {
-        "SUCCESS_MESSAGE": "ጽሑፉ በተሳካ ሁኔታ ተሰርዟል",
-        "ERROR_MESSAGE": "ጽሑፉን ሲሰርዝ ስህተት ተከሰተ"
-      }
-    },
-    "REORDER_ARTICLE": {
-      "API": {
-        "ERROR_MESSAGE": "ሰነዶችን ማደራጀት አልተቻለም። እባክዎ ደግመው ይሞክሩ።."
-      }
-    },
-    "REORDER_CATEGORY": {
-      "API": {
-        "ERROR_MESSAGE": "ምደቦችን ማደራጀት አልተቻለም። እባክዎ ደግመው ይሞክሩ።."
+        "SUCCESS_MESSAGE": "Article deleted successfully",
+        "ERROR_MESSAGE": "Error while deleting article"
       }
     },
     "CREATE_ARTICLE": {
-      "ERROR_MESSAGE": "እባክዎ የጽሑፍ ርዕስና ይዘቱን ያክሉ ከዚያ ብቻ ቅንብሮቹን ማዘመን ይችላሉ።"
+      "ERROR_MESSAGE": "Please add the article heading and content then only you can update the settings"
     },
     "SIDEBAR": {
       "SEARCH": {
-        "PLACEHOLDER": "ለጽሑፎች ፈልግ"
+        "PLACEHOLDER": "Search for articles"
       }
     },
     "CATEGORY": {
       "ADD": {
-        "TITLE": "ምድብ ፍጠር",
-        "SUB_TITLE": "ካተጎሪው በህዝብ ፊት የሚታይ ፖርታል ውስጥ ለሰነዶች ምደቦች ለማድረግ ይጠቀማል።.",
-        "PORTAL": "ፖርታል",
-        "LOCALE": "ቋንቋ",
+        "TITLE": "Create a category",
+        "SUB_TITLE": "The category will be used in the public facing portal to categorize articles.",
+        "PORTAL": "Portal",
+        "LOCALE": "Locale",
         "NAME": {
-          "LABEL": "ስም",
-          "PLACEHOLDER": "የምድብ ስም",
-          "HELP_TEXT": "የካተጎሪው ስም እና አዶ በህዝብ ፊት የሚታይ ፖርታል ውስጥ ለሰነዶች ምደቦች ለማድረግ ይጠቀማል።.",
-          "ERROR": "ስም ያስፈልጋል"
+          "LABEL": "Name",
+          "PLACEHOLDER": "Category name",
+          "HELP_TEXT": "The category name and icon will be used in the public facing portal to categorize articles.",
+          "ERROR": "Name is required"
         },
         "SLUG": {
-          "LABEL": "ስልግ",
-          "PLACEHOLDER": "ለURL የምድብ ስም",
+          "LABEL": "Slug",
+          "PLACEHOLDER": "Category slug for urls",
           "HELP_TEXT": "app.chatwoot.com/hc/my-portal/en-US/categories/my-slug",
-          "ERROR": "Slug ያስፈልጋል"
+          "ERROR": "Slug is required"
         },
         "DESCRIPTION": {
-          "LABEL": "መግለጫ",
-          "PLACEHOLDER": "ስለ ካተጎሪው አጭር መግለጫ ያቀርቡ።.",
-          "ERROR": "መግለጫ አስፈላጊ ነው"
+          "LABEL": "Description",
+          "PLACEHOLDER": "Give a short description about the category.",
+          "ERROR": "Description is required"
         },
         "BUTTONS": {
-          "CREATE": "ምድብ ፍጠር",
-          "CANCEL": "ሰርዝ"
+          "CREATE": "Create category",
+          "CANCEL": "Cancel"
         },
         "API": {
-          "SUCCESS_MESSAGE": "ምድብ በተሳካ ሁኔታ ተፈጥሯል",
-          "ERROR_MESSAGE": "ምድብ ማፍጠር አልተቻለም"
+          "SUCCESS_MESSAGE": "Category created successfully",
+          "ERROR_MESSAGE": "Unable to create category"
         }
       },
       "EDIT": {
-        "TITLE": "ምድብ አርትዕ",
-        "SUB_TITLE": "ካተጎሪውን ማስተካከል ካተጎሪውን በህዝብ ፊት የሚታይ ፖርታል ውስጥ ያዘመናል።.",
-        "PORTAL": "ፖርታል",
-        "LOCALE": "ቋንቋ",
+        "TITLE": "Edit a category",
+        "SUB_TITLE": "Editing a category will update the category in the public facing portal.",
+        "PORTAL": "Portal",
+        "LOCALE": "Locale",
         "NAME": {
-          "LABEL": "ስም",
-          "PLACEHOLDER": "የምድብ ስም",
-          "HELP_TEXT": "የካተጎሪው ስም እና አዶ በህዝብ ፊት የሚታይ ፖርታል ውስጥ ለሰነዶች ምደቦች ለማድረግ ይጠቀማል።.",
-          "ERROR": "ስም አስፈላጊ ነው"
+          "LABEL": "Name",
+          "PLACEHOLDER": "Category name",
+          "HELP_TEXT": "The category name and icon will be used in the public facing portal to categorize articles.",
+          "ERROR": "Name is required"
         },
         "SLUG": {
-          "LABEL": "ስልግ",
-          "PLACEHOLDER": "ለURL የምድብ ስም",
+          "LABEL": "Slug",
+          "PLACEHOLDER": "Category slug for urls",
           "HELP_TEXT": "app.chatwoot.com/hc/my-portal/en-US/categories/my-slug",
-          "ERROR": "Slug አስፈላጊ ነው"
+          "ERROR": "Slug is required"
         },
         "DESCRIPTION": {
-          "LABEL": "መግለጫ",
-          "PLACEHOLDER": "ስለ ካተጎሪው አጭር መግለጫ ያቀርቡ።.",
-          "ERROR": "መግለጫ አስፈላጊ ነው"
+          "LABEL": "Description",
+          "PLACEHOLDER": "Give a short description about the category.",
+          "ERROR": "Description is required"
         },
         "BUTTONS": {
-          "CREATE": "ምድቡን አዘምን",
-          "CANCEL": "ሰርዝ"
+          "CREATE": "Update category",
+          "CANCEL": "Cancel"
         },
         "API": {
-          "SUCCESS_MESSAGE": "ምድብ በተሳካ ሁኔታ ተሻሽሏል",
-          "ERROR_MESSAGE": "ምድቡን ማሻሻል አልተቻለም"
+          "SUCCESS_MESSAGE": "Category updated successfully",
+          "ERROR_MESSAGE": "Unable to update category"
         }
       },
       "DELETE": {
         "API": {
-          "SUCCESS_MESSAGE": "ምድብ በተሳካ ሁኔታ ተሰርዟል",
-          "ERROR_MESSAGE": "ምድቡን ማስወገድ አልተቻለም"
+          "SUCCESS_MESSAGE": "Category deleted successfully",
+          "ERROR_MESSAGE": "Unable to delete category"
         }
       }
     },
     "ARTICLE_SEARCH": {
-      "TITLE": "ጽሑፎችን ፈልግ",
-      "PLACEHOLDER": "ጽሑፎችን ፈልግ",
-      "NO_RESULT": "ምንም ጽሑፎች አልተገኙም",
-      "SEARCHING": "በመፈለግ ላይ...",
-      "SEARCH_BUTTON": "ፈልግ",
-      "INSERT_ARTICLE": "አገናኝ አስገባ",
-      "IFRAME_ERROR": "URL ባዶ ወይም የተሳሳተ ነው። ይዘቱን ማሳየት አልተቻለም።.",
-      "OPEN_ARTICLE_SEARCH": "ከእርዳታ ማዕከል ጽሑፍ አስገባ",
-      "SUCCESS_ARTICLE_INSERTED": "ጽሑፍ በተሳካ ሁኔታ ተካተተ",
-      "PREVIEW_LINK": "ጽሑፍ አሳይ",
-      "CANCEL": "ዝጋ",
-      "BACK": "ተመለስ",
-      "BACK_RESULTS": "ወደ ውጤቶች ተመለስ"
+      "TITLE": "Search articles",
+      "PLACEHOLDER": "Search articles",
+      "NO_RESULT": "No articles found",
+      "SEARCHING": "Searching...",
+      "SEARCH_BUTTON": "Search",
+      "INSERT_ARTICLE": "Insert link",
+      "IFRAME_ERROR": "URL is empty or invalid. Unable to display content.",
+      "OPEN_ARTICLE_SEARCH": "Insert article from Help Center",
+      "SUCCESS_ARTICLE_INSERTED": "Article inserted successfully",
+      "PREVIEW_LINK": "Preview article",
+      "CANCEL": "Close",
+      "BACK": "Back",
+      "BACK_RESULTS": "Back to results"
     },
     "UPGRADE_PAGE": {
-      "TITLE": "የእርዳታ ማዕከል",
-      "DESCRIPTION": "ተጠቃሚ መሆን የሚችሉ ራስ-አገልግሎት ፖርታሎችን ይፍጠሩ። ተጠቃሚዎችዎን ሰነዶችን ለመዳረሻ እና 24/7 ድጋፍ ለማግኘት እርዳታ ያድርጉ። ይህን ባህሪ ለማበረታታት የስብስብዎን አዘጋጅት ያዘምኑ።.",
-      "SELF_HOSTED_DESCRIPTION": "ተጠቃሚ መሆን የሚችሉ ራስ-አገልግሎት ፖርታሎችን ይፍጠሩ። ተጠቃሚዎችዎን ሰነዶችን ለመዳረሻ እና 24/7 ድጋፍ ለማግኘት እርዳታ ያድርጉ። እባክዎ ይህን ባህሪ ለማበረታታት ከአስተዳደሩ ጋር ያግኙ።.",
+      "TITLE": "Help Center",
+      "DESCRIPTION": "Create user-friendly self-service portals. Help your users to access the articles and get support 24/7. Upgrade your subscription to enable this feature.",
+      "SELF_HOSTED_DESCRIPTION": "Create user-friendly self-service portals. Help your users to access the articles and get support 24/7. Please contact your administrator to enable this feature.",
       "BUTTON": {
-        "LEARN_MORE": "ተጨማሪ ያውቁ",
-        "UPGRADE": "አሻሽል"
+        "LEARN_MORE": "Learn more",
+        "UPGRADE": "Upgrade"
       },
       "FEATURES": {
         "PORTALS": {
-          "TITLE": "ብዙ መድረኮች",
-          "DESCRIPTION": "ለተለያዩ ምርቶች በአንደኛው መለያ ብዙ የእርዳታ ማዕከላዊ ፖርታሎችን ይፍጠሩ።."
+          "TITLE": "Multiple portals",
+          "DESCRIPTION": "Create multiple help center portals for different products using the same account."
         },
         "LOCALES": {
-          "TITLE": "ለቋንቋዎች ሙሉ ድጋፍ",
-          "DESCRIPTION": "ፖርታሉን በቋንቋዎ ይቋንቋሉ። ሁሉንም ቋንቋዎች እና ለእያንዳንዱ ሰነድ ትርጉሞችን እንደገና እንደምናደርግ እናደግፋለን።."
+          "TITLE": "Full support for locales",
+          "DESCRIPTION": "Localize the portal in your language. We support all locales and allow translations for every article."
         },
         "SEO": {
-          "TITLE": "ለSEO ተስማሚ ንድፍ",
-          "DESCRIPTION": "ከSEO ተስማሚ ገፆቻችን ጋር በመጠቀም በመፈለጊያ ሞተሮች ላይ እይታዎን ለማሻሻል የሜታ መለያዎችን ያስተካክሉ።."
+          "TITLE": "SEO-friendly design",
+          "DESCRIPTION": "Customize your meta tags to improve your visibility on search engines with our SEO-friendly pages."
         },
         "API": {
-          "TITLE": "ሙሉ API ድጋፍ",
-          "DESCRIPTION": "ፖርታሉን እንደ headless CMS በሶስተኛ ወገን ፊት ገጽ አወቃቀር ከሚያደርጉ ፍሬምወርኮች ጋር በAPI ይጠቀሙ።."
+          "TITLE": "Full API support",
+          "DESCRIPTION": "Use the portal as a headless CMS with third party front-end frameworks using our APIs."
         }
       }
     },
-    "LOADING": "በመጫን ላይ...",
+    "LOADING": "Loading...",
     "ARTICLES_PAGE": {
       "ARTICLE_CARD": {
         "CARD": {
-          "VIEWS": "{count} እይታ | {count} እይታዎች",
+          "VIEWS": "{count} view | {count} views",
           "DROPDOWN_MENU": {
-            "PUBLISH": "ለህትመት አድርግ",
-            "DRAFT": "እቅድ",
-            "ARCHIVE": "አርክቭ",
-            "DELETE": "ሰርዝ"
+            "PUBLISH": "Publish",
+            "DRAFT": "Draft",
+            "ARCHIVE": "Archive",
+            "DELETE": "Delete"
           },
           "STATUS": {
-            "DRAFT": "እቅድ",
-            "PUBLISHED": "ተለቀቀ",
-            "ARCHIVED": "ተቀምጧል"
+            "DRAFT": "Draft",
+            "PUBLISHED": "Published",
+            "ARCHIVED": "Archived"
           },
           "CATEGORY": {
-            "UNCATEGORISED": "ያልተደራጀ"
+            "UNCATEGORISED": "Uncategorised"
           }
         }
       },
       "ARTICLES_HEADER": {
         "TABS": {
-          "ALL": "ሁሉም ጽሁፎች",
-          "MINE": "የእኔ",
-          "DRAFT": "እቅድ",
-          "PUBLISHED": "ታተም",
-          "ARCHIVED": "ተቀምጧል"
+          "ALL": "All articles",
+          "MINE": "Mine",
+          "DRAFT": "Draft",
+          "PUBLISHED": "Published",
+          "ARCHIVED": "Archived"
         },
         "CATEGORY": {
-          "ALL": "ሁሉም ምድቦች"
+          "ALL": "All categories"
         },
         "LOCALE": {
-          "ALL": "ሁሉም ቋንቋዎች"
+          "ALL": "All locales"
         },
-        "NEW_ARTICLE": "አዲስ ጽሑፍ"
+        "NEW_ARTICLE": "New article"
       },
       "EMPTY_STATE": {
         "ALL": {
-          "TITLE": "ጽሑፍ ይጽፉ",
-          "SUBTITLE": "ባለጠጋ ጽሑፍ ይጽፉ፣ እንጀምር!",
-          "BUTTON_LABEL": "አዲስ ጽሑፍ"
+          "TITLE": "Write an article",
+          "SUBTITLE": "Write a rich article, let’s get started!",
+          "BUTTON_LABEL": "New article"
         },
         "MINE": {
-          "TITLE": "እዚህ ምንም ጽሑፎች አልጻፉም",
-          "SUBTITLE": "በእርስዎ የተጻፉ ሁሉም ሰነዶች እዚህ ለፈጣን መዳረሻ ይታያሉ።."
+          "TITLE": "You haven't written any articles here",
+          "SUBTITLE": "All articles written by you show up here for quick access."
         },
         "DRAFT": {
-          "TITLE": "በረቂቅ ላይ ምንም ጽሑፎች የሉም",
-          "SUBTITLE": "የቅድሚያ ጽሑፎች እዚህ ይታያሉ"
+          "TITLE": "There are no articles in drafts",
+          "SUBTITLE": "Draft articles will appear here"
         },
         "PUBLISHED": {
-          "TITLE": "ተለቀቁ ያልተሆኑ ጽሑፎች የሉም",
-          "SUBTITLE": "የታተመ ጽሑፎች እዚህ ይታያሉ"
+          "TITLE": "There are no published articles",
+          "SUBTITLE": "Published articles will appear here"
         },
         "ARCHIVED": {
-          "TITLE": "በአርካይቭ ውስጥ ምንም ጽሑፎች የሉም",
-          "SUBTITLE": "የተአምራች ጽሑፎች በፖርታል ላይ አይታዩም፣ ይህን ለተሰረዙ ወይም የዕድሜ ያለው ገፆች ለማስመዝገብ መጠቀም ትችላለህ"
+          "TITLE": "There are no articles in the archive",
+          "SUBTITLE": "Archived articles don't show up on the portal, you can use it to mark deprecated or outdated pages"
         },
         "CATEGORY": {
-          "TITLE": "በዚህ ምድብ ምንም ጽሑፎች የሉም",
-          "SUBTITLE": "በዚህ ምድብ ያሉ ጽሑፎች እዚህ ይታያሉ"
+          "TITLE": "There are no articles in this category",
+          "SUBTITLE": "Articles in this category will appear here"
         }
       }
     },
     "CATEGORY_PAGE": {
       "CATEGORY_HEADER": {
-        "NEW_CATEGORY": "አዲስ ምድብ",
-        "EDIT_CATEGORY": "ምድብ አርትዕ",
-        "CATEGORIES_COUNT": "{n} ምድብ | {n} ምድቦች",
+        "NEW_CATEGORY": "New category",
+        "EDIT_CATEGORY": "Edit category",
+        "CATEGORIES_COUNT": "{n} category | {n} categories",
         "BREADCRUMB": {
-          "CATEGORY_LOCALE": "ምድቦች ({localeCode})",
-          "ACTIVE_CATEGORY": "{categoryName} ({categoryCount} ጽሑፎች) | {categoryName} ({categoryCount} ጽሑፍ)"
+          "CATEGORY_LOCALE": "Categories ({localeCode})",
+          "ACTIVE_CATEGORY": "{categoryName} ({categoryCount} articles) | {categoryName} ({categoryCount} article)"
         }
       },
       "CATEGORY_EMPTY_STATE": {
-        "TITLE": "ምድቦች አልተገኙም",
-        "SUBTITLE": "ካተጎሪዎች እዚህ ይታያሉ። በ'አዲስ ካተጎሪ' አዝራር ቁልፍ በመጫን ካተጎሪ ማክሰኞ ይችላሉ።."
+        "TITLE": "No categories found",
+        "SUBTITLE": "Categories will appear here. You can add a category by clicking the 'New Category' button."
       },
       "CATEGORY_CARD": {
-        "ARTICLES_COUNT": "{count} ጽሑፍ | {count} ጽሑፎች"
+        "ARTICLES_COUNT": "{count} article | {count} articles"
       },
       "CATEGORY_DIALOG": {
         "CREATE": {
           "API": {
-            "SUCCESS_MESSAGE": "ምድብ በተሳካ ሁኔታ ተፈጥሯል",
-            "ERROR_MESSAGE": "ምድብ ማፍጠር አልተቻለም"
+            "SUCCESS_MESSAGE": "Category created successfully",
+            "ERROR_MESSAGE": "Unable to create category"
           }
         },
         "EDIT": {
           "API": {
-            "SUCCESS_MESSAGE": "ምድብ በተሳካ ሁኔታ ተሻሽሏል",
-            "ERROR_MESSAGE": "ምድቡን ማሻሻል አልተቻለም"
+            "SUCCESS_MESSAGE": "Category updated successfully",
+            "ERROR_MESSAGE": "Unable to update category"
           }
         },
         "DELETE": {
           "API": {
-            "SUCCESS_MESSAGE": "ምድብ በተሳካ ሁኔታ ተሰርዟል",
-            "ERROR_MESSAGE": "ምድቡን ማስወገድ አልተቻለም"
+            "SUCCESS_MESSAGE": "Category deleted successfully",
+            "ERROR_MESSAGE": "Unable to delete category"
           }
         },
         "HEADER": {
-          "CREATE": "ምድብ ፍጠር",
-          "EDIT": "ምድብ አርትዕ",
-          "DESCRIPTION": "ካተጎሪውን ማስተካከል ካተጎሪውን በህዝብ ፊት የሚታይ ፖርታል ውስጥ ያዘመናል።.",
-          "PORTAL": "ፖርታል",
-          "LOCALE": "ቋንቋ"
+          "CREATE": "Create category",
+          "EDIT": "Edit category",
+          "DESCRIPTION": "Editing a category will update the category in the public facing portal.",
+          "PORTAL": "Portal",
+          "LOCALE": "Locale"
         },
         "FORM": {
           "NAME": {
-            "LABEL": "ስም",
-            "PLACEHOLDER": "የምድብ ስም",
-            "ERROR": "ስም አስፈላጊ ነው"
+            "LABEL": "Name",
+            "PLACEHOLDER": "Category name",
+            "ERROR": "Name is required"
           },
           "SLUG": {
-            "LABEL": "ስልግ",
-            "PLACEHOLDER": "ለURL የምድብ ስም",
-            "ERROR": "Slug አስፈላጊ ነው",
+            "LABEL": "Slug",
+            "PLACEHOLDER": "Category slug for urls",
+            "ERROR": "Slug is required",
             "HELP_TEXT": "app.chatwoot.com/hc/{portalSlug}/{localeCode}/categories/{categorySlug}"
           },
           "DESCRIPTION": {
-            "LABEL": "መግለጫ",
-            "PLACEHOLDER": "ስለ ካተጎሪው አጭር መግለጫ ያቀርቡ።.",
-            "ERROR": "መግለጫ አስፈላጊ ነው"
+            "LABEL": "Description",
+            "PLACEHOLDER": "Give a short description about the category.",
+            "ERROR": "Description is required"
           }
         },
         "BUTTONS": {
-          "CREATE": "ፍጠር",
-          "EDIT": "አዘምን",
-          "CANCEL": "ሰርዝ"
+          "CREATE": "Create",
+          "EDIT": "Update",
+          "CANCEL": "Cancel"
         }
       }
     },
     "LOCALES_PAGE": {
-      "LOCALES_COUNT": "ምንም ቋንቋ አልተገኘም | {n} ቋንቋ | {n} ቋንቋዎች",
-      "NEW_LOCALE_BUTTON_TEXT": "አዲስ ቋንቋ",
+      "LOCALES_COUNT": "No locales available | {n} locale | {n} locales",
+      "NEW_LOCALE_BUTTON_TEXT": "New locale",
       "LOCALE_CARD": {
-        "ARTICLES_COUNT": "{count} ጽሑፍ | {count} ጽሑፎች",
-        "CATEGORIES_COUNT": "{count} ምድብ | {count} ምድቦች",
-        "DEFAULT": "ነባሪ",
-        "DRAFT": "እቅድ",
+        "ARTICLES_COUNT": "{count} article | {count} articles",
+        "CATEGORIES_COUNT": "{count} category | {count} categories",
+        "DEFAULT": "Default",
         "DROPDOWN_MENU": {
-          "MAKE_DEFAULT": "እንደ ነባሪ አድርግ",
-          "MOVE_TO_DRAFT": "Move to draft",
-          "PUBLISH_LOCALE": "Publish locale",
-          "DELETE": "ሰርዝ"
+          "MAKE_DEFAULT": "Make default",
+          "DELETE": "Delete"
         }
       },
       "ADD_LOCALE_DIALOG": {
-        "TITLE": "አዲስ ቋንቋ አክል",
-        "DESCRIPTION": "ይህ ሰነድ በሚጻፍበት ቋንቋ ይምረጡ። ይህ ወደ የትርጉም ዝርዝርዎ ይጨምራል እና በኋላ ተጨማሪ ማክሰኞ ይችላሉ።.",
+        "TITLE": "Add a new locale",
+        "DESCRIPTION": "Select the language in which this article will be written. This will be added to your list of translations, and you can add more later.",
         "COMBOBOX": {
-          "PLACEHOLDER": "ቋንቋ ይምረጡ..."
-        },
-        "STATUS": {
-          "LABEL": "Status",
-          "OPTIONS": {
-            "LIVE": "ተለቀቀ",
-            "DRAFT": "እቅድ"
-          }
+          "PLACEHOLDER": "Select locale..."
         },
         "API": {
-          "SUCCESS_MESSAGE": "ቋንቋ በተሳካ ሁኔታ ተጨምሯል",
-          "ERROR_MESSAGE": "ቋንቋውን ማክሰኞ አልተቻለም። እባክዎ ደግመው ይሞክሩ።."
+          "SUCCESS_MESSAGE": "Locale added successfully",
+          "ERROR_MESSAGE": "Unable to add locale. Try again."
         }
       }
     },
     "EDIT_ARTICLE_PAGE": {
       "HEADER": {
         "STATUS": {
-          "SAVING": "እየተቀመጠ ነው...",
-          "SAVED": "ተቀመጠ"
+          "SAVING": "Saving...",
+          "SAVED": "Saved"
         },
-        "PREVIEW": "ቅድመ እይታ",
-        "PUBLISH": "ለማስታወቂያ",
-        "DRAFT": "እቅድ",
-        "ARCHIVE": "አርክቭ",
-        "BACK_TO_ARTICLES": "ወደ ጽሑፎች ተመለስ"
+        "PREVIEW": "Preview",
+        "PUBLISH": "Publish",
+        "DRAFT": "Draft",
+        "ARCHIVE": "Archive",
+        "BACK_TO_ARTICLES": "Back to articles"
       },
       "EDIT_ARTICLE": {
-        "MORE_PROPERTIES": "ተጨማሪ ባህሪያት",
-        "UNCATEGORIZED": "ያልተመደበ",
-        "EDITOR_PLACEHOLDER": "አንዳንድ ነገር ይጽፉ..."
+        "MORE_PROPERTIES": "More properties",
+        "UNCATEGORIZED": "Uncategorized",
+        "EDITOR_PLACEHOLDER": "Write something..."
       },
       "ARTICLE_PROPERTIES": {
-        "ARTICLE_PROPERTIES": "የጽሑፍ ባህሪያት",
-        "META_DESCRIPTION": "የሜታ መግለጫ",
-        "META_DESCRIPTION_PLACEHOLDER": "የሜታ መግለጫ ያክሉ",
-        "META_TITLE": "ሜታ ርዕስ",
-        "META_TITLE_PLACEHOLDER": "ሜታ ርዕስ ያክሉ",
-        "META_TAGS": "ሜታ መለያዎች",
-        "META_TAGS_PLACEHOLDER": "ሜታ መለያዎች ያክሉ"
+        "ARTICLE_PROPERTIES": "Article properties",
+        "META_DESCRIPTION": "Meta description",
+        "META_DESCRIPTION_PLACEHOLDER": "Add meta description",
+        "META_TITLE": "Meta title",
+        "META_TITLE_PLACEHOLDER": "Add meta title",
+        "META_TAGS": "Meta tags",
+        "META_TAGS_PLACEHOLDER": "Add meta tags"
       },
       "API": {
-        "ERROR": "ሰነዱን ሲቀምጥ ስህተት አጋጥሟል"
+        "ERROR": "Error while saving article"
       }
     },
     "PORTAL_SWITCHER": {
-      "NEW_PORTAL": "አዲስ ፖርታል",
-      "PORTALS": "ፖርታሎች",
-      "CREATE_PORTAL": "ብዙ ፖርታሎች ፍጠርና አስተዳደር",
-      "ARTICLES": "ሐረጎች",
-      "DOMAIN": "ዶሜይን",
-      "PORTAL_NAME": "ፖርታል ስም"
+      "NEW_PORTAL": "New portal",
+      "PORTALS": "Portals",
+      "CREATE_PORTAL": "Create and manage multiple portals",
+      "ARTICLES": "articles",
+      "DOMAIN": "domain",
+      "PORTAL_NAME": "Portal name"
     },
     "CREATE_PORTAL_DIALOG": {
-      "TITLE": "አዲስ ፖርታል ፍጠር",
-      "DESCRIPTION": "ፖርታልዎን ስም ይስጡ እና ተጠቃሚ-መልካም URL slug ይፍጠሩ። ሁለቱንም በኋላ በቅንብሮች ማስተካከል ይችላሉ።.",
-      "CONFIRM_BUTTON_LABEL": "ፍጠር",
+      "TITLE": "Create new portal",
+      "DESCRIPTION": "Give your portal a name and create a user-friendly URL slug. You can modify both later in the settings.",
+      "CONFIRM_BUTTON_LABEL": "Create",
       "NAME": {
-        "LABEL": "ስም",
-        "PLACEHOLDER": "የተጠቃሚ መመሪያ | Chatwoot",
-        "MESSAGE": "ለፖርታልዎ ስም ይምረጡ።.",
-        "ERROR": "ስም ያስፈልጋል"
+        "LABEL": "Name",
+        "PLACEHOLDER": "User Guide | ChannelX",
+        "MESSAGE": "Choose an name for your portal.",
+        "ERROR": "Name is required"
       },
       "SLUG": {
-        "LABEL": "ስልግ",
+        "LABEL": "Slug",
         "PLACEHOLDER": "user-guide",
-        "ERROR": "Slug አስፈላጊ ነው",
-        "FORMAT_ERROR": "እባክዎ ትክክለኛ ስለግ ያስገቡ፣ ለምሳሌ፡ user-guide"
+        "ERROR": "Slug is required",
+        "FORMAT_ERROR": "Please enter a valid slug, for eg: user-guide"
       }
     },
     "PORTAL_SETTINGS": {
       "FORM": {
         "AVATAR": {
-          "LABEL": "ሎጎ",
-          "IMAGE_UPLOAD_ERROR": "ምስሉን ማስገባት አልተቻለም! እንደገና ይሞክሩ",
-          "IMAGE_UPLOAD_SUCCESS": "ምስሉ በተሳካ ሁኔታ ተጨምሯል። ሎጎውን ለመቀየር እባክዎ በማስቀመጥ ላይ ያጫኑ",
-          "IMAGE_DELETE_SUCCESS": "ሎጎው በተሳካ ሁኔታ ተሰርዟል",
-          "IMAGE_DELETE_ERROR": "አርማውን ማጥፋት አልተቻለም",
-          "IMAGE_UPLOAD_SIZE_ERROR": "የምስሉ መጠን ከ {size}MB በታች መሆን አለበት"
+          "LABEL": "Logo",
+          "IMAGE_UPLOAD_ERROR": "Couldn't upload image! Try again",
+          "IMAGE_UPLOAD_SUCCESS": "Image added successfully. Please click on save changes to save the logo",
+          "IMAGE_DELETE_SUCCESS": "Logo deleted successfully",
+          "IMAGE_DELETE_ERROR": "Unable to delete logo",
+          "IMAGE_UPLOAD_SIZE_ERROR": "Image size should be less than {size}MB"
         },
         "NAME": {
-          "LABEL": "ስም",
-          "PLACEHOLDER": "የፖርታሉ ስም",
-          "ERROR": "ስም አስፈላጊ ነው"
+          "LABEL": "Name",
+          "PLACEHOLDER": "Portal name",
+          "ERROR": "Name is required"
         },
         "HEADER_TEXT": {
-          "LABEL": "የራስጌ ጽሑፍ",
-          "PLACEHOLDER": "የፖርታል ራስጌ ጽሑፍ"
+          "LABEL": "Header text",
+          "PLACEHOLDER": "Portal header text"
         },
         "PAGE_TITLE": {
-          "LABEL": "የገፅ ርዕስ",
-          "PLACEHOLDER": "የፖርታል ገፅ ርዕስ"
+          "LABEL": "Page title",
+          "PLACEHOLDER": "Portal page title"
         },
         "HOME_PAGE_LINK": {
-          "LABEL": "የመነሻ ገፅ አገናኝ",
-          "PLACEHOLDER": "የፖርታል መነሻ ገጽ አገናኝ",
-          "ERROR": "እባክዎ ትክክለኛ ዩአርኤል ያስገቡ። የመነሻ ገፅ አገናኝ ከ 'http://' ወይም 'https://' መጀመሪያ መሆን አለበት።."
+          "LABEL": "Home page link",
+          "PLACEHOLDER": "Portal home page link",
+          "ERROR": "Enter a valid URL. The Home page link must start with 'http://' or 'https://'."
         },
         "SLUG": {
-          "LABEL": "ስለግ",
-          "PLACEHOLDER": "የፖርታል ስለግ"
+          "LABEL": "Slug",
+          "PLACEHOLDER": "Portal slug"
         },
         "LIVE_CHAT_WIDGET": {
-          "LABEL": "ቀጥታ የንግግር ዊጅት",
-          "PLACEHOLDER": "ቀጥታ የንግግር ዊጅት ይምረጡ",
-          "HELP_TEXT": "በእርዳታ ማዕከልዎ ላይ የሚታይ የቀጥታ ውይይት ዊጅት ይምረጡ",
-          "NONE_OPTION": "ምንም የማይታይ እቃ"
+          "LABEL": "Live chat widget",
+          "PLACEHOLDER": "Select live chat widget",
+          "HELP_TEXT": "Select a live chat widget that will appear on your help center"
         },
         "BRAND_COLOR": {
-          "LABEL": "የብራንድ ቀለም"
+          "LABEL": "Brand color"
         },
-        "SAVE_CHANGES": "ለውጦች አስቀምጥ"
+        "SAVE_CHANGES": "Save changes"
       },
       "CONFIGURATION_FORM": {
         "CUSTOM_DOMAIN": {
-          "HEADER": "ብለይ የተለየ ዶሜን",
-          "LABEL": "ብለይ የተለየ ዶሜይን:",
-          "DESCRIPTION": "ፖርታልዎን በብለይ የተለየ ዶሜይን ማስተናገድ ይችላሉ። ለምሳሌ፣ ድህረ ገፅዎ yourdomain.com ከሆነ ፖርታልዎን docs.yourdomain.com ላይ ለማግኘት በዚህ መስክ ያስገቡ።.",
-          "STATUS_DESCRIPTION": "የብለይ ፖርታልዎ እንደሚሰራ በማረጋገጥ እንዲሠራ ይጀምራል።.",
-          "PLACEHOLDER": "የፖርታል ብልጥ ዶሜይን",
-          "EDIT_BUTTON": "አርትዕ",
-          "ADD_BUTTON": "ብልጥ ዶሜይን አክል",
+          "HEADER": "Custom domain",
+          "LABEL": "Custom domain:",
+          "DESCRIPTION": "You can host your portal on a custom domain. For instance, if your website is yourdomain.com and you want your portal available at docs.yourdomain.com, simply enter that in this field.",
+          "STATUS_DESCRIPTION": "Your custom portal will start working as soon as it is verified.",
+          "PLACEHOLDER": "Portal custom domain",
+          "EDIT_BUTTON": "Edit",
+          "ADD_BUTTON": "Add custom domain",
           "STATUS": {
-            "LIVE": "በሕይወት ላይ",
-            "PENDING": "ማረጋገጫ በመጠበቅ ላይ ነው",
-            "ERROR": "ማረጋገጫ አልተሳካም"
+            "LIVE": "Live",
+            "PENDING": "Awaiting verification",
+            "ERROR": "Verification failed"
           },
           "DIALOG": {
-            "ADD_HEADER": "ብልጥ ዶሜይን አክል",
-            "EDIT_HEADER": "ብልጥ ዶሜይን አርትዕ",
-            "ADD_CONFIRM_BUTTON_LABEL": "ዶሜይን አክል",
-            "EDIT_CONFIRM_BUTTON_LABEL": "ዶሜይን አዘምን",
-            "LABEL": "ብለይ የተሰራ ዶሜይን",
-            "PLACEHOLDER": "የፖርታል ብለይ የተሰራ ዶሜይን",
-            "ERROR": "ብለይ የተሰራ ዶሜይን አስፈላጊ ነው",
-            "FORMAT_ERROR": "እባክዎ ትክክለኛ የዶሜይን URL ያስገቡ ለምሳሌ docs.yourdomain.com"
+            "ADD_HEADER": "Add custom domain",
+            "EDIT_HEADER": "Edit custom domain",
+            "ADD_CONFIRM_BUTTON_LABEL": "Add domain",
+            "EDIT_CONFIRM_BUTTON_LABEL": "Update domain",
+            "LABEL": "Custom domain",
+            "PLACEHOLDER": "Portal custom domain",
+            "ERROR": "Custom domain is required",
+            "FORMAT_ERROR": "Please enter a valid domain URL e.g. docs.yourdomain.com"
           },
           "DNS_CONFIGURATION_DIALOG": {
-            "HEADER": "የDNS ቅንብር",
-            "DESCRIPTION": "ከDNS አቅራቢዎ ጋር ያለዎትን መለያ ይግቡ፣ እና ለsubdomain ወደ chatwoot.help የሚያመራ የCNAME መዝገብ ያክሉ",
-            "COPY": "CNAME በተሳካ ሁኔታ ተቀይሯል",
+            "HEADER": "DNS configuration",
+            "DESCRIPTION": "Log in to the account you have with your DNS provider, and add a CNAME record for subdomain pointing to chatwoot.help",
+            "COPY": "Successfully copied CNAME",
             "SEND_INSTRUCTIONS": {
-              "HEADER": "መመሪያዎችን ላክ",
-              "DESCRIPTION": "ይህን ደረሰኝ ለማንኛውም ከእርስዎ የሚሰሩ ሰው እንዲያከናውን ቢፈልጉ ከታች ኢሜይል አድራሻ ያስገቡ እና እኛ ያስፈልጋቸውን መመሪያዎች እንልክላቸዋለን።.",
-              "PLACEHOLDER": "ኢሜይላቸውን ያስገቡ",
-              "ERROR": "ትክክለኛ ኢሜይል አድራሻ ያስገቡ",
-              "SEND_BUTTON": "ላክ"
+              "HEADER": "Send instructions",
+              "DESCRIPTION": "If you would prefer to have someone from your development team to handle this step, you can enter email address below, and we will send them the required instructions.",
+              "PLACEHOLDER": "Enter their email",
+              "ERROR": "Enter a valid email address",
+              "SEND_BUTTON": "Send"
             }
           }
         },
         "DELETE_PORTAL": {
-          "BUTTON": "{portalName} አስወግድ",
-          "HEADER": "ፖርታል አስወግድ",
-          "DESCRIPTION": "ይህን ፖርታል በሙሉ ያስወግዱ። ይህ እርምጃ አይተለወጥም",
+          "BUTTON": "Delete {portalName}",
+          "HEADER": "Delete portal",
+          "DESCRIPTION": "Permanently delete this portal. This action is irreversible",
           "DIALOG": {
-            "HEADER": "እርግጠኛ ነዎት እንደምትሰርዙ {portalName}?",
-            "DESCRIPTION": "ይህ የማይተካ ቋሚ እርምጃ ነው።.",
-            "CONFIRM_BUTTON_LABEL": "ሰርዝ"
+            "HEADER": "Sure you want to delete {portalName}?",
+            "DESCRIPTION": "This is a permanent action that cannot be reversed.",
+            "CONFIRM_BUTTON_LABEL": "Delete"
           }
         },
-        "EDIT_CONFIGURATION": "ቅንብር አርትዕ"
+        "EDIT_CONFIGURATION": "Edit configuration"
       },
       "API": {
         "CREATE_PORTAL": {
-          "SUCCESS_MESSAGE": "ፖርታል በተሳካ ሁኔታ ተፈጥሯል",
-          "ERROR_MESSAGE": "ፖርታሉን ማፍጠር አልተቻለም"
+          "SUCCESS_MESSAGE": "Portal created successfully",
+          "ERROR_MESSAGE": "Unable to create portal"
         },
         "UPDATE_PORTAL": {
-          "SUCCESS_MESSAGE": "ፖርታሉ በተሳካ ሁኔታ ተዘምኗል",
-          "ERROR_MESSAGE": "ፖርታሉን ማዘመን አልተቻለም"
+          "SUCCESS_MESSAGE": "Portal updated successfully",
+          "ERROR_MESSAGE": "Unable to update portal"
         }
       }
-    },
-    "PDF_UPLOAD": {
-      "TITLE": "PDF ሰነድ አስገባ",
-      "DESCRIPTION": "በAI በመጠቀም በራስሰር የሚፈጥሩ ብዙ ጥያቄዎችን ለማመንጨት PDF ሰነድ አስገባ",
-      "DRAG_DROP_TEXT": "PDF ፋይልዎን እዚህ ያስነሱ ወይም ለምረጥ ጠቅ ያድርጉ",
-      "SELECT_FILE": "PDF ፋይል ምረጥ",
-      "ADDITIONAL_CONTEXT_LABEL": "ተጨማሪ እውቀት (አማራጭ)",
-      "ADDITIONAL_CONTEXT_PLACEHOLDER": "የተጨማሪ ሁኔታ ወይም ለFAQ ፍጠራ መመሪያዎችን ያቀርቡ...",
-      "UPLOADING": "በማስገባት ላይ...",
-      "UPLOAD": "አስገባና አስከፋፈል",
-      "CANCEL": "ሰርዝ",
-      "ERROR_INVALID_TYPE": "እባክዎ ትክክለኛ የPDF ፋይል ይምረጡ",
-      "ERROR_FILE_TOO_LARGE": "ፋይል መጠኑ ከ512MB በታች መሆን አለበት",
-      "ERROR_UPLOAD_FAILED": "PDF ማስገባት አልተሳካም። እባክዎ ደግመው ይሞክሩ።."
-    },
-    "PDF_DOCUMENTS": {
-      "TITLE": "PDF ሰነዶች",
-      "DESCRIPTION": "የተሰቀሉ የPDF ሰነዶችን ያስተዳድሩ እና ከእነሱ በመሠረት ብዙ ጥያቄዎች ያመነቱ",
-      "UPLOAD_PDF": "PDF አስገባ",
-      "UPLOAD_FIRST_PDF": "የመጀመሪያዎን PDF ያስገቡ",
-      "UPLOADED_BY": "በ... ተሰብስቧል",
-      "GENERATE_FAQS": "የተደጋጋሚ ጥያቄዎችን ያፍጠሩ",
-      "GENERATING": "እየፈጠረ ነው...",
-      "CONFIRM_DELETE": "እርግጠኛ ነዎት እንደምትሰርዙ {filename}?",
-      "EMPTY_STATE": {
-        "TITLE": "እስካሁን ድረስ PDF ሰነዶች የሉም",
-        "DESCRIPTION": "PDF ሰነዶችን አስገባ እና በAI በመጠቀም በራስሰር የተዘጋጀ የተደጋጋሚ ጥያቄዎችን ፍጠር"
-      },
-      "STATUS": {
-        "UPLOADED": "ዝግጅተዋል",
-        "PROCESSING": "በሂደት ላይ",
-        "PROCESSED": "ተጠናቋል",
-        "FAILED": "አልተሳካም"
-      }
-    },
-    "CONTENT_GENERATION": {
-      "TITLE": "የይዘት ፍጠር",
-      "DESCRIPTION": "PDF ሰነዶችን ለማስገባት እና በAI በመጠቀም በራስሰር የFAQ ይዘት ለማመንጨት",
-      "UPLOAD_TITLE": "PDF ሰነድ አስገባ",
-      "DRAG_DROP": "PDF ፋይልዎን እዚህ ያስወስዱ ወይም ለምረጥ ጠቅ ያድርጉ",
-      "SELECT_FILE": "PDF ፋይል ይምረጡ",
-      "UPLOADING": "ሰነዱን እየተከናወነ ነው...",
-      "UPLOAD_SUCCESS": "ሰነዱ በተሳካ ሁኔታ ተከናውኗል!",
-      "UPLOAD_ERROR": "ሰነዱን ማስገባት አልተሳካም። እባክዎ ደግመው ይሞክሩ።.",
-      "INVALID_FILE_TYPE": "እባክዎ ትክክለኛ የPDF ፋይል ይምረጡ",
-      "FILE_TOO_LARGE": "ፋይል መጠኑ ከ512MB በታች መሆን አለበት",
-      "GENERATED_CONTENT": "የተፈጥሮ የተደጋጋሚ ጥያቄ ይዘት",
-      "PUBLISH_SELECTED": "የተመረጡን አስተዋውቅ",
-      "PUBLISHING": "እየታተም ነው...",
-      "FROM_DOCUMENT": "ከሰነድ ውስጥ",
-      "NO_CONTENT": "ምንም የተፈጠረ ይዘት አልተገኘም። ለመጀመር PDF ሰነድ ያስገቡ።.",
-      "LOADING": "የተፈጠረው ይዘት በመጫን ላይ..."
     }
   }
 }
