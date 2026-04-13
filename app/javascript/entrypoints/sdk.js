@@ -220,6 +220,6 @@ const runSDK = ({ baseUrl, websiteToken }) => {
   });
 };
 
-window.localComChatSDK = {
+window.channelXChatSDK = {
   run: runSDK,
 };
