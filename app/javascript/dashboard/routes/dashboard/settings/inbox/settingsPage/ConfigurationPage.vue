@@ -43,7 +43,7 @@ export default {
       return this.inbox.provider_config?.source === 'embedded_signup';
     },
     whatsappAppId() {
-      return window.chatwootConfig?.whatsappAppId;
+      return window.channelxConfig?.whatsappAppId;
     },
   },
   watch: {
@@ -143,7 +143,7 @@ export default {
         <woot-code
           :script="inbox.web_widget_script"
           lang="html"
-          :codepen-title="`${inbox.name} - Chatwoot Widget Test`"
+          :codepen-title="`${inbox.name} - ChannelX Widget Test`"
           enable-code-pen
         />
       </SettingsSection>

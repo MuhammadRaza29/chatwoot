@@ -11,7 +11,9 @@ const validateSSOLoginParams = to => {
   return isLoginRoute && hasValidSSOParams;
 };
 
-export const validateRouteAccess = (to, next, chatwootConfig = {}) => {
+export const validateRouteAccess = (to, next, channelxConfig = {}) => {
+  const chatwootConfig =
+    channelxConfig || window.channelxConfig || window.chatwootConfig || {};
   // Pages with ignoreSession:true would be rendered
   // even if there is an active session
   // Used for confirmation or password reset pages
