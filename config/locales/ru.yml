@@ -229,7 +229,7 @@ ru:
       description: 'Панель приложений позволяет вам создавать и вставлять приложения, отображающие информацию о пользователе, заказы или историю платежей, обеспечивая больший контекст для агентов поддержки.'
     dyte:
       name: 'Dyte'
-      short_description: 'Start video/voice calls with customers directly from Chatwoot.'
+      short_description: 'Start video/voice calls with customers directly from ChannelX.'
       description: 'Dyte - это продукт, который интегрирует функции аудио и видео в ваше приложение. С помощью этой интеграции ваши агенты могут начать видео/голосовые звонки с вашими клиентами прямо из Chatwoot.'
       meeting_name: '%{agent_name} приступил к встрече'
     slack:

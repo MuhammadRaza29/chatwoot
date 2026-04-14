@@ -229,7 +229,7 @@ lv:
       description: 'Informācijas paneļa Lietotnes ļauj izveidot un iegult lietojumprogrammas, kurās tiek parādīta lietotāja informācija, pasūtījumu vai maksājumu vēsture, nodrošinot plašāku kontekstu jūsu klientu atbalsta aģentiem.'
     dyte:
       name: 'Dyte'
-      short_description: 'Start video/voice calls with customers directly from Chatwoot.'
+      short_description: 'Start video/voice calls with customers directly from ChannelX.'
       description: 'Dyte ir produkts, kas integrē audio un video funkcijas jūsu lietojumprogrammā. Izmantojot šo integrāciju, jūsu aģenti var sākt video/balss zvanus ar klientiem tieši no Chatwoot.'
       meeting_name: '%{agent_name} ir sācis sapulci'
     slack:

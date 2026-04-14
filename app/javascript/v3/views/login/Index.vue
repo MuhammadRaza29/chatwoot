@@ -76,10 +76,10 @@ export default {
   computed: {
     ...mapGetters({ globalConfig: 'globalConfig/get' }),
     showGoogleOAuth() {
-      return Boolean(window.chatwootConfig.googleOAuthClientId);
+      return Boolean(window.channelxConfig.googleOAuthClientId);
     },
     showSignupLink() {
-      return parseBoolean(window.chatwootConfig.signupEnabled);
+      return parseBoolean(window.channelxConfig.signupEnabled);
     },
   },
   created() {
@@ -175,13 +175,13 @@ export default {
       <img
         :src="globalConfig.logo"
         :alt="globalConfig.installationName"
-        class="block w-auto h-8 mx-auto dark:hidden"
+        class="block w-auto h-20 mx-auto dark:hidden"
       />
       <img
         v-if="globalConfig.logoDark"
         :src="globalConfig.logoDark"
         :alt="globalConfig.installationName"
-        class="hidden w-auto h-8 mx-auto dark:block"
+        class="hidden w-auto h-20 mx-auto dark:block"
       />
       <h2 class="mt-6 text-3xl font-medium text-center text-n-slate-12">
         {{ replaceInstallationName($t('LOGIN.TITLE')) }}

@@ -68,7 +68,7 @@ export default {
       return this.$t('REGISTER.TERMS_ACCEPT')
         .replace('https://www.chatwoot.com/terms', this.globalConfig.termsURL)
         .replace(
-          'https://www.chatwoot.com/privacy-policy',
+          'https://localcom.com.au/wp-content/uploads/2025/06/Privacy-Policy-ChannelX-1.pdf',
           this.globalConfig.privacyURL
         );
     },
@@ -92,7 +92,7 @@ export default {
       return '';
     },
     showGoogleOAuth() {
-      return Boolean(window.chatwootConfig.googleOAuthClientId);
+      return Boolean(window.channelxConfig.googleOAuthClientId);
     },
     isFormValid() {
       return !this.v$.$invalid && this.hasAValidCaptcha;
