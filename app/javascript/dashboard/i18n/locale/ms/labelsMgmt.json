@@ -1,82 +1,78 @@
 {
   "LABEL_MGMT": {
-    "HEADER": "Label",
-    "HEADER_BTN_TXT": "Tambah label",
-    "LOADING": "Memuatkan label",
-    "DESCRIPTION": "Label membantu anda mengkategorikan dan mengutamakan perbualan dan prospek. Anda boleh menetapkan label kepada perbualan atau kenalan menggunakan panel sisi.",
-    "LEARN_MORE": "Ketahui lebih lanjut tentang label",
-    "COUNT": "{n} label | {n} labels",
-    "SEARCH_PLACEHOLDER": "Cari label...",
-    "NO_RESULTS": "Tiada label ditemui yang sepadan dengan carian anda",
-    "SEARCH_404": "Tiada item yang sepadan dengan pertanyaan ini",
+    "HEADER": "Labels",
+    "HEADER_BTN_TXT": "Add label",
+    "LOADING": "Fetching labels",
+    "DESCRIPTION": "Labels help you categorize and prioritize conversations and leads. You can assign a label to a conversation or contact using the side panel.",
+    "LEARN_MORE": "Learn more about labels",
+    "SEARCH_404": "There are no items matching this query",
     "LIST": {
-      "404": "Tiada label tersedia dalam akaun ini.",
-      "TITLE": "Urus label",
-      "DESC": "Label membolehkan anda mengumpulkan perbualan bersama-sama.",
+      "404": "There are no labels available in this account.",
+      "TITLE": "Manage labels",
+      "DESC": "Labels let you group the conversations together.",
       "TABLE_HEADER": {
         "NAME": "Nama",
-        "DESCRIPTION": "Penerangan",
-        "COLOR": "Warna",
-        "ACTION": "Tindakan-tindakan"
+        "DESCRIPTION": "Description",
+        "COLOR": "Color"
       }
     },
     "FORM": {
       "NAME": {
-        "LABEL": "Nama Label",
-        "PLACEHOLDER": "Nama label",
-        "REQUIRED_ERROR": "Nama label diperlukan",
-        "MINIMUM_LENGTH_ERROR": "Panjang minimum 2 diperlukan",
-        "VALID_ERROR": "Hanya Alfabet, Nombor, Tanda Hubung dan Garis Bawah dibenarkan"
+        "LABEL": "Label Name",
+        "PLACEHOLDER": "Label name",
+        "REQUIRED_ERROR": "Label name is required",
+        "MINIMUM_LENGTH_ERROR": "Minimum length 2 is required",
+        "VALID_ERROR": "Only Alphabets, Numbers, Hyphen and Underscore are allowed"
       },
       "DESCRIPTION": {
-        "LABEL": "Penerangan",
-        "PLACEHOLDER": "Penerangan Label"
+        "LABEL": "Description",
+        "PLACEHOLDER": "Label Description"
       },
       "COLOR": {
-        "LABEL": "Warna"
+        "LABEL": "Color"
       },
       "SHOW_ON_SIDEBAR": {
-        "LABEL": "Tunjukkan label pada bar sisi"
+        "LABEL": "Show label on sidebar"
       },
-      "EDIT": "Sunting",
-      "CREATE": "Cipta",
+      "EDIT": "Edit",
+      "CREATE": "Create",
       "DELETE": "Padamkan",
       "CANCEL": "Batalkan"
     },
     "SUGGESTIONS": {
       "TOOLTIP": {
-        "SINGLE_SUGGESTION": "Tambah label ke perbualan",
-        "MULTIPLE_SUGGESTION": "Pilih label ini",
-        "DESELECT": "Nyahpilih label",
-        "DISMISS": "Tolak cadangan"
+        "SINGLE_SUGGESTION": "Add label to conversation",
+        "MULTIPLE_SUGGESTION": "Select this label",
+        "DESELECT": "Deselect label",
+        "DISMISS": "Dismiss suggestion"
       },
-      "POWERED_BY": "Chatwoot AI",
-      "DISMISS": "Tolak",
-      "ADD_SELECTED_LABELS": "Tambah label yang dipilih",
-      "ADD_SELECTED_LABEL": "Tambah label yang dipilih",
-      "ADD_ALL_LABELS": "Tambah semua label",
-      "SUGGESTED_LABELS": "Label yang dicadangkan"
+      "POWERED_BY": "ChannelX AI",
+      "DISMISS": "Dismiss",
+      "ADD_SELECTED_LABELS": "Add selected labels",
+      "ADD_SELECTED_LABEL": "Add selected label",
+      "ADD_ALL_LABELS": "Add all labels",
+      "SUGGESTED_LABELS": "Suggested labels"
     },
     "ADD": {
-      "TITLE": "Tambah label",
-      "DESC": "Label membolehkan anda mengelompokkan perbualan bersama-sama.",
+      "TITLE": "Add label",
+      "DESC": "Labels let you group the conversations together.",
       "API": {
-        "SUCCESS_MESSAGE": "Label berjaya ditambah",
-        "ERROR_MESSAGE": "Terdapat ralat, sila cuba lagi"
+        "SUCCESS_MESSAGE": "Label added successfully",
+        "ERROR_MESSAGE": "There was an error, please try again"
       }
     },
     "EDIT": {
-      "TITLE": "Sunting label",
+      "TITLE": "Edit label",
       "API": {
-        "SUCCESS_MESSAGE": "Label berjaya dikemas kini",
-        "ERROR_MESSAGE": "Terdapat ralat, sila cuba lagi"
+        "SUCCESS_MESSAGE": "Label updated successfully",
+        "ERROR_MESSAGE": "There was an error, please try again"
       }
     },
     "DELETE": {
       "BUTTON_TEXT": "Padamkan",
       "API": {
-        "SUCCESS_MESSAGE": "Label berjaya dipadam",
-        "ERROR_MESSAGE": "Terdapat ralat, sila cuba lagi"
+        "SUCCESS_MESSAGE": "Label deleted successfully",
+        "ERROR_MESSAGE": "There was an error, please try again"
       },
       "CONFIRM": {
         "TITLE": "Pasti Padamkan",

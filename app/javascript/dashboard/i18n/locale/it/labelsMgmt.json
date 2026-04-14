@@ -3,11 +3,8 @@
     "HEADER": "Etichette",
     "HEADER_BTN_TXT": "Aggiungi etichetta",
     "LOADING": "Recupero etichette",
-    "DESCRIPTION": "Le etichette aiutano a categorizzare e dare priorità alle conversazioni e ai lead. È possibile assegnare un'etichetta a una conversazione o a un contatto utilizzando il pannello laterale.",
-    "LEARN_MORE": "Maggiori informazioni sulle etichette",
-    "COUNT": "{n} etichetta | {n} etichette",
-    "SEARCH_PLACEHOLDER": "Cerca etichette...",
-    "NO_RESULTS": "Nessuna etichetta trovata corrispondente alla tua ricerca",
+    "DESCRIPTION": "Labels help you categorize and prioritize conversations and leads. You can assign a label to a conversation or contact using the side panel.",
+    "LEARN_MORE": "Learn more about labels",
     "SEARCH_404": "Non ci sono elementi che corrispondono a questa richiesta",
     "LIST": {
       "404": "Non ci sono etichette disponibili in questo account.",
@@ -16,21 +13,20 @@
       "TABLE_HEADER": {
         "NAME": "Nome",
         "DESCRIPTION": "Descrizione",
-        "COLOR": "Colore",
-        "ACTION": "Azioni"
+        "COLOR": "Colore"
       }
     },
     "FORM": {
       "NAME": {
-        "LABEL": "Nome Etichetta",
+        "LABEL": "Nome etichetta",
         "PLACEHOLDER": "Nome etichetta",
         "REQUIRED_ERROR": "Nome etichetta obbligatorio",
         "MINIMUM_LENGTH_ERROR": "È richiesta una lunghezza minima di 2",
-        "VALID_ERROR": "Sono ammessi solo lettere, numeri, trattino e underscore"
+        "VALID_ERROR": "Sono ammessi solo lettere, numeri, trattino e sottolineatura"
       },
       "DESCRIPTION": {
         "LABEL": "Descrizione",
-        "PLACEHOLDER": "Descrizione Etichetta"
+        "PLACEHOLDER": "Descrizione etichetta"
       },
       "COLOR": {
         "LABEL": "Colore"
@@ -45,17 +41,17 @@
     },
     "SUGGESTIONS": {
       "TOOLTIP": {
-        "SINGLE_SUGGESTION": "Aggiungi etichetta alla conversazione",
-        "MULTIPLE_SUGGESTION": "Seleziona questa etichetta",
-        "DESELECT": "Deseleziona etichetta",
-        "DISMISS": "Ignora suggerimento"
+        "SINGLE_SUGGESTION": "Add label to conversation",
+        "MULTIPLE_SUGGESTION": "Select this label",
+        "DESELECT": "Deselect label",
+        "DISMISS": "Dismiss suggestion"
       },
-      "POWERED_BY": "Chatwoot AI",
-      "DISMISS": "Ignora",
-      "ADD_SELECTED_LABELS": "Aggiungi etichette selezionate",
-      "ADD_SELECTED_LABEL": "Aggiungi etichetta selezionata",
-      "ADD_ALL_LABELS": "Aggiungi tutte le etichette",
-      "SUGGESTED_LABELS": "Etichette suggerite"
+      "POWERED_BY": "ChannelX AI",
+      "DISMISS": "Dismiss",
+      "ADD_SELECTED_LABELS": "Add selected labels",
+      "ADD_SELECTED_LABEL": "Add selected label",
+      "ADD_ALL_LABELS": "Add all labels",
+      "SUGGESTED_LABELS": "Suggested labels"
     },
     "ADD": {
       "TITLE": "Aggiungi etichetta",
@@ -68,7 +64,7 @@
     "EDIT": {
       "TITLE": "Modifica etichetta",
       "API": {
-        "SUCCESS_MESSAGE": "Etichetta aggiornata con successo",
+        "SUCCESS_MESSAGE": "Campagna aggiornata con successo",
         "ERROR_MESSAGE": "Si è verificato un errore, riprova"
       }
     },
@@ -79,10 +75,10 @@
         "ERROR_MESSAGE": "Si è verificato un errore, riprova"
       },
       "CONFIRM": {
-        "TITLE": "Conferma Eliminazione",
+        "TITLE": "Conferma eliminazione",
         "MESSAGE": "Sei sicuro di voler eliminare ",
-        "YES": "Sì, Elimina ",
-        "NO": "No, Mantieni "
+        "YES": "Sì, elimina ",
+        "NO": "No, conserva "
       }
     }
   }

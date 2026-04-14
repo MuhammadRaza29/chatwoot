@@ -17,6 +17,8 @@ global.chatwootConfig = {
   websocketURL: 'wss://test.chatwoot.com',
 };
 
+global.channelxConfig = global.chatwootConfig;
+
 describe('ActionCableConnector - Copilot Tests', () => {
   let store;
   let actionCable;
