@@ -60,6 +60,9 @@ gem 'image_processing'
 ##-- for actionmailbox --##
 gem 'aws-actionmailbox-ses', '~> 0'
 
+##-- PDF processing --##
+gem 'pdf-reader'
+
 ##-- gems for database --#
 gem 'groupdate'
 gem 'pg'

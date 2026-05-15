@@ -1,11 +1,15 @@
 class Captain::Llm::FaqGeneratorService < Llm::BaseAiService
   include Integrations::LlmInstrumentation
 
+  # Lower temperature for structured JSON output — high values cause schema drift
+  FAQ_TEMPERATURE = 0.3
+
   def initialize(content, language = 'english', account_id: nil)
     super()
     @language = language
     @content = content
     @account_id = account_id
+    @temperature = FAQ_TEMPERATURE
   end
 
   def generate
@@ -13,7 +17,7 @@ class Captain::Llm::FaqGeneratorService < Llm::BaseAiService
       chat
         .with_params(response_format: { type: 'json_object' })
         .with_instructions(system_prompt)
-        .ask(@content)
+        .ask(user_prompt)
     end
 
     parse_response(response.content)
@@ -28,6 +32,15 @@ class Captain::Llm::FaqGeneratorService < Llm::BaseAiService
 
   def system_prompt
     Captain::Llm::SystemPromptsService.faq_generator(language)
+  end
+
+  def user_prompt
+    <<~PROMPT
+      #{@content}
+
+      REQUIRED OUTPUT FORMAT — respond with ONLY this JSON structure, no other keys:
+      {"faqs": [{"question": "...", "answer": "..."}, ...]}
+    PROMPT
   end
 
   def instrumentation_params

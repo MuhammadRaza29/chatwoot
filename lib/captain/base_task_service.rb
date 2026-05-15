@@ -34,7 +34,8 @@ class Captain::BaseTaskService
   def api_base
     endpoint = InstallationConfig.find_by(name: 'CAPTAIN_OPEN_AI_ENDPOINT')&.value.presence || 'https://api.openai.com/'
     endpoint = endpoint.chomp('/')
-    "#{endpoint}/v1"
+    # Don't append /v1 if the endpoint already includes it (e.g. Groq: https://api.groq.com/openai/v1)
+    endpoint.end_with?('/v1') ? endpoint : "#{endpoint}/v1"
   end
 
   def make_api_call(model:, messages:, schema: nil, tools: [])
