@@ -3,6 +3,15 @@ class Captain::Conversation::ResponseBuilderJob < ApplicationJob
   retry_on ActiveStorage::FileNotFoundError, attempts: 3, wait: 2.seconds
   retry_on Faraday::BadRequestError, attempts: 3, wait: 2.seconds
 
+  HUMAN_HANDOFF_PATTERNS = [
+    /\b(talk|speak|chat)\s+(to|with)\s+(a\s+)?(human|person|agent|representative)\b/i,
+    /\b(connect|transfer|switch)\s+(me\s+)?(to\s+)?(a\s+)?(human|person|agent|someone)\b/i,
+    /\b(i\s+)?(want|need|would\s+like)\s+(to\s+)?(talk|speak|chat)\s+(to|with)\s+(a\s+)?(human|person|agent|someone)\b/i,
+    /\bhuman\s+agent\b/i,
+    /\blive\s+(agent|support|chat)\b/i,
+    /\breal\s+person\b/i
+  ].freeze
+
   def perform(conversation, assistant)
     @conversation = conversation
     @inbox = conversation.inbox
@@ -11,6 +20,11 @@ class Captain::Conversation::ResponseBuilderJob < ApplicationJob
     return unless conversation_pending?
 
     Current.executed_by = @assistant
+
+    if human_handoff_requested?
+      process_v1_handoff
+      return
+    end
 
     if captain_v2_enabled?
       generate_response_with_v2
@@ -99,6 +113,13 @@ class Captain::Conversation::ResponseBuilderJob < ApplicationJob
 
   def prepare_multimodal_message_content(message)
     Captain::OpenAiMessageBuilderService.new(message: message).generate_content
+  end
+
+  def human_handoff_requested?
+    content = @conversation.messages.where(message_type: :incoming).last&.content
+    return false if content.blank?
+
+    HUMAN_HANDOFF_PATTERNS.any? { |pattern| content.match?(pattern) }
   end
 
   def v1_handoff_requested?

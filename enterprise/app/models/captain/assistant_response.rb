@@ -46,9 +46,12 @@ class Captain::AssistantResponse < ApplicationRecord
 
   enum status: { pending: 0, approved: 1 }
 
+  SIMILARITY_THRESHOLD = 0.5
+
   def self.search(query, account_id: nil)
     embedding = Captain::Llm::EmbeddingService.new(account_id: account_id).get_embedding(query)
-    nearest_neighbors(:embedding, embedding, distance: 'cosine').limit(5)
+    nearest_neighbors(:embedding, embedding, distance: 'cosine').limit(5).to_a
+                     .select { |r| r.neighbor_distance < SIMILARITY_THRESHOLD }
   end
 
   private

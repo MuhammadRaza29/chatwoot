@@ -44,12 +44,13 @@ class Captain::ConversationCompletionService < Captain::BaseTaskService
   end
 
   def parse_response(message)
-    return default_incomplete_response('Invalid response format') unless message.is_a?(Hash)
-
+    parsed = message.is_a?(Hash) ? message : JSON.parse(message.to_s.gsub('```json', '').gsub('```', '').strip)
     {
-      complete: message['complete'] == true,
-      reason: message['reason'] || 'No reason provided'
+      complete: parsed['complete'] == true,
+      reason: parsed['reason'] || 'No reason provided'
     }
+  rescue JSON::ParserError
+    default_incomplete_response('Invalid response format')
   end
 
   def default_incomplete_response(reason)
