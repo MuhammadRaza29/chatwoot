@@ -61,7 +61,7 @@ module Enterprise::MessageTemplates::HookExecutionService
       message_type: :outgoing,
       account_id: conversation.account.id,
       inbox_id: conversation.inbox.id,
-      content: 'Transferring to another agent for further assistance.'
+      content: 'Transferring to human agent for further assistance.'
     )
     conversation.bot_handoff!
     send_out_of_office_message_after_handoff

@@ -29,6 +29,21 @@ module Llm::Config
       yield context
     end
 
+    # Use this for embedding calls since Groq has no embedding API.
+    # Falls back to CAPTAIN_OPEN_AI_API_KEY / EMBEDDING_API_ENDPOINT if embedding-specific keys aren't set.
+    def with_embedding_config
+      initialize!
+      key = embedding_api_key
+      base = embedding_api_base
+
+      context = RubyLLM.context do |config|
+        config.openai_api_key = key
+        config.openai_api_base = base
+      end
+
+      yield context
+    end
+
     private
 
     def configure_ruby_llm
@@ -46,6 +61,16 @@ module Llm::Config
 
     def openai_endpoint
       InstallationConfig.find_by(name: 'CAPTAIN_OPEN_AI_ENDPOINT')&.value
+    end
+
+    def embedding_api_key
+      InstallationConfig.find_by(name: 'CAPTAIN_EMBEDDING_API_KEY')&.value.presence || system_api_key
+    end
+
+    def embedding_api_base
+      endpoint = InstallationConfig.find_by(name: 'CAPTAIN_EMBEDDING_ENDPOINT')&.value.presence ||
+                 LlmConstants::EMBEDDING_API_ENDPOINT
+      endpoint.chomp('/')
     end
   end
 end

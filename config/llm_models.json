@@ -1,5 +1,32 @@
 [
   {
+    "id": "llama-3.3-70b-versatile",
+    "name": "Llama 3.3 70B Versatile (Groq)",
+    "provider": "openai",
+    "family": "llama",
+    "created_at": "2024-12-01 00:00:00 +0530",
+    "context_window": 128000,
+    "max_output_tokens": 32768,
+    "knowledge_cutoff": "2023-12-31",
+    "modalities": {
+      "input": ["text"],
+      "output": ["text"]
+    },
+    "capabilities": ["function_calling"],
+    "pricing": {
+      "text_tokens": { "standard": { "input_per_million": 0.59, "output_per_million": 0.79 } }
+    },
+    "metadata": {
+      "object": "model",
+      "owned_by": "meta",
+      "source": "manual",
+      "provider_id": "openai",
+      "open_weights": true,
+      "attachment": false,
+      "temperature": true
+    }
+  },
+  {
     "id": "claude-3-5-haiku-20241022",
     "name": "Claude Haiku 3.5",
     "provider": "anthropic",
@@ -5771,6 +5798,33 @@
   },
   {
     "id": "gemini-2.0-flash",
+    "name": "Gemini 2.0 Flash (OpenAI-compatible)",
+    "provider": "openai",
+    "family": "gemini-flash",
+    "created_at": "2025-02-05 00:00:00 +0530",
+    "context_window": 1048576,
+    "max_output_tokens": 8192,
+    "knowledge_cutoff": null,
+    "modalities": {
+      "input": ["text", "image"],
+      "output": ["text"]
+    },
+    "capabilities": ["vision"],
+    "pricing": {
+      "text_tokens": { "standard": { "input_per_million": 0.1 } }
+    },
+    "metadata": {
+      "object": "model",
+      "owned_by": "google",
+      "source": "manual",
+      "provider_id": "openai",
+      "open_weights": false,
+      "attachment": false,
+      "temperature": true
+    }
+  },
+  {
+    "id": "gemini-2.0-flash",
     "name": "Gemini 2.0 Flash",
     "provider": "gemini",
     "family": "gemini-flash",
@@ -6975,6 +7029,33 @@
         "output": 65536
       },
       "knowledge": "2025-01"
+    }
+  },
+  {
+    "id": "gemini-embedding-001",
+    "name": "Gemini Embedding 001 (OpenAI-compatible)",
+    "provider": "openai",
+    "family": "gemini",
+    "created_at": "2025-05-20 00:00:00 +0530",
+    "context_window": 2048,
+    "max_output_tokens": 768,
+    "knowledge_cutoff": null,
+    "modalities": {
+      "input": ["text"],
+      "output": ["text"]
+    },
+    "capabilities": [],
+    "pricing": {
+      "text_tokens": { "standard": { "input_per_million": 0.0 } }
+    },
+    "metadata": {
+      "object": "model",
+      "owned_by": "google",
+      "source": "manual",
+      "provider_id": "openai",
+      "open_weights": false,
+      "attachment": false,
+      "temperature": false
     }
   },
   {
@@ -14093,6 +14174,51 @@
         "output": 1536
       },
       "knowledge": "2024-01"
+    }
+  },
+  {
+    "id": "text-embedding-004",
+    "name": "text-embedding-004",
+    "provider": "openai",
+    "family": "text-embedding",
+    "created_at": "2024-09-01 00:00:00 +0530",
+    "context_window": 2048,
+    "max_output_tokens": 768,
+    "knowledge_cutoff": null,
+    "modalities": {
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "capabilities": [],
+    "pricing": {
+      "text_tokens": {
+        "standard": {
+          "input_per_million": 0.0
+        }
+      }
+    },
+    "metadata": {
+      "object": "model",
+      "owned_by": "google",
+      "source": "manual",
+      "provider_id": "openai",
+      "open_weights": false,
+      "attachment": false,
+      "temperature": false,
+      "last_updated": "2024-09-01",
+      "cost": {
+        "input": 0.0,
+        "output": 0
+      },
+      "limit": {
+        "context": 2048,
+        "output": 768
+      },
+      "knowledge": null
     }
   },
   {

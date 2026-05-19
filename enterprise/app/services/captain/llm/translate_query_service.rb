@@ -1,5 +1,5 @@
 class Captain::Llm::TranslateQueryService < Captain::BaseTaskService
-  MODEL = 'gpt-4.1-nano'.freeze
+  MODEL = LlmConstants::DEFAULT_MODEL
 
   pattr_initialize [:account!]
 
